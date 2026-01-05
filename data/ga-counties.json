@@ -1,0 +1,34 @@
+[
+  {
+    "fips": "13121",
+    "name": "Fulton",
+    "courtSites": [
+      {
+        "label": "Fulton Superior Court",
+        "url": "https://example.com/fulton-superior"
+      }
+    ],
+    "otherResources": [
+      {
+        "label": "Fulton Property Records",
+        "url": "https://example.com/fulton-property"
+      }
+    ]
+  },
+  {
+    "fips": "13089",
+    "name": "DeKalb",
+    "courtSites": [
+      {
+        "label": "DeKalb Superior Court",
+        "url": "https://example.com/dekalb-superior"
+      }
+    ],
+    "otherResources": [
+      {
+        "label": "DeKalb Property Records",
+        "url": "https://example.com/dekalb-property"
+      }
+    ]
+  }
+]

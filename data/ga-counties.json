@@ -5,21 +5,25 @@
     "courtSites": [
       {
         "label": "Fulton County Magistrate, State and Superior Court",
-        "url": "https://portal-gafulton.tylertech.cloud/Portal/"
+        "url": "https://portal-gafulton.tylertech.cloud/Portal/",
+        "notes": "",
       },
       {
         "label": "Fulton County State Court - Traffic",
         "url": "https://fultoncountygastatecourttraffic.municipalonlinepayments.com/fultoncountygastatecourttraffic/court/search"
+        "notes": "",
            },
       {
         "label": "Fulton County State Court - Criminal",
         "url": "https://fultoncountygastatecourtcriminal.municipalonlinepayments.com/fultoncountygastatecourtcriminal/court/search"
+        "notes": "",
       }
     ],
     "otherResources": [
       {
         "label": "Fulton Property Records",
         "url": "https://example.com/fulton-property"
+        "notes": "",
       }
     ]
   },
@@ -30,12 +34,14 @@
       {
         "label": "DeKalb Superior Court",
         "url": "https://example.com/dekalb-superior"
+        "notes": "",
       }
     ],
     "otherResources": [
       {
         "label": "DeKalb Property Records",
         "url": "https://example.com/dekalb-property"
+        "notes": "",
       }
     ]
   }

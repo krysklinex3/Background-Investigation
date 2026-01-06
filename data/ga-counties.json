@@ -6,24 +6,24 @@
       {
         "label": "Fulton County Magistrate, State and Superior Court",
         "url": "https://portal-gafulton.tylertech.cloud/Portal/",
-        "notes": "",
+        "notes": ""
       },
       {
         "label": "Fulton County State Court - Traffic",
-        "url": "https://fultoncountygastatecourttraffic.municipalonlinepayments.com/fultoncountygastatecourttraffic/court/search"
-        "notes": "This is an online payment website for violations.",
+        "url": "https://fultoncountygastatecourttraffic.municipalonlinepayments.com/fultoncountygastatecourttraffic/court/search",
+        "notes": "This is an online payment website for violations."
            },
       {
         "label": "Fulton County State Court - Criminal",
-        "url": "https://fultoncountygastatecourtcriminal.municipalonlinepayments.com/fultoncountygastatecourtcriminal/court/search"
-        "notes": "This is an online payment website for violations.",
+        "url": "https://fultoncountygastatecourtcriminal.municipalonlinepayments.com/fultoncountygastatecourtcriminal/court/search",
+        "notes": "This is an online payment website for violations."
       }
     ],
     "otherResources": [
       {
         "label": "Fulton Property Records",
-        "url": "https://example.com/fulton-property"
-        "notes": "",
+        "url": "https://example.com/fulton-property",
+        "notes": ""
       }
     ]
   },
@@ -33,15 +33,15 @@
     "courtSites": [
       {
         "label": "DeKalb Superior Court",
-        "url": "https://example.com/dekalb-superior"
-        "notes": "",
+        "url": "https://example.com/dekalb-superior",
+        "notes": ""
       }
     ],
     "otherResources": [
       {
         "label": "DeKalb Property Records",
-        "url": "https://example.com/dekalb-property"
-        "notes": "",
+        "url": "https://example.com/dekalb-property",
+        "notes": ""
       }
     ]
   }

@@ -8,21 +8,23 @@
   <h1><center>Georgia Counties</center></h1>
   <!-- GEORGIA COUNTY MAP - clickable -->
 
-<div id="ga-map-container" style="max-width: 1000px; margin: 20px 0; position: relative;">
-  <!-- FULL OPAQUE COUNTY MAP (visible) -->
-  <img src="../assets/ga-counties.svg" id="background-map" style="width: 100%; height: auto; position: absolute; top: 0; left: 0; z-index: 1;">
-  
-  <!-- PERFECTLY ALIGNED INVISIBLE CLICK LAYER -->
-  <svg id="ga-map" style="width: 100%; height: auto; position: relative; z-index: 2;">
-    <!-- Fulton County - EXACTLY same coordinates as background -->
-    <path data-fips="13121" 
-          d="M 342.5602 456.7082 L 342.4146 464.9911 L 342.269 470.362 L 330.9609 470.1679 L 321.8853 471.9798 L 320.3322 468.4207 L 319.216 456.7082 L 316.4011 454.1198 L 312.6641 447.7134 L 312.6641 439.3011 L 311.2566 437.9422 L 317.8086 438.2011 L 328.9711 438.3952 L 328.874 445.8369 L 330.427 456.7729 L 342.5602 456.7082 Z" 
-          fill="transparent" stroke="transparent" pointer-events="visiblePainted"/>
+<div id="ga-map-container" style="max-width: 1000px; margin: 20px 0;">
+  <!-- SINGLE LAYER: Full map + clickable counties -->
+  <svg id="ga-map" viewBox="0 0 960 600" style="width: 100%; height: auto; overflow: visible;">
     
-    <!-- DeKalb County -->
-    <path data-fips="13089" 
-          d="M 342.269 470.362 L 342.4146 464.9911 L 342.5602 456.7082 L 358.2362 456.8376 L 358.9642 454.055 L 364.0116 456.6435 L 368.9134 456.7082 L 378.2802 456.7082 L 378.3287 456.7082 L 377.8434 465.1205 L 381.9687 475.6682 L 380.27 477.9978 L 378.5229 475.8624 L 374.3005 478.9685 L 359.9834 478.2566 L 345.2295 477.8684 L 344.55 470.362 L 342.269 470.362 Z" 
-          fill="transparent" stroke="transparent" pointer-events="visiblePainted"/>
+    <!-- ALL COUNTY PATHS FROM YOUR SVG - copy ALL from assets/ga-counties.svg -->
+    <!-- Use fill="#f8f8f8" stroke="#ddd" stroke-width="0.3" for non-clickable -->
+    <!-- Use fill="#e0e0e0" stroke="#666" stroke-width="1" data-fips="13121" for clickable -->
+    
+    <!-- Example - replace with ALL your paths -->
+    <path d="M 342.5602 456.7082 L 342.4146 464.9911 L 342.269 470.362 L 330.9609 470.1679 L 321.8853 471.9798 L 320.3322 468.4207 L 319.216 456.7082 L 316.4011 454.1198 L 312.6641 447.7134 L 312.6641 439.3011 L 311.2566 437.9422 L 317.8086 438.2011 L 328.9711 438.3952 L 328.874 445.8369 L 330.427 456.7729 L 342.5602 456.7082 Z" 
+          data-fips="13121" fill="#e0e0e0" stroke="#666" stroke-width="1"/>
+    
+    <path d="M 342.269 470.362 L 342.4146 464.9911 L 342.5602 456.7082 L 358.2362 456.8376 L 358.9642 454.055 L 364.0116 456.6435 L 368.9134 456.7082 L 378.2802 456.7082 L 378.3287 456.7082 L 377.8434 465.1205 L 381.9687 475.6682 L 380.27 477.9978 L 378.5229 475.8624 L 374.3005 478.9685 L 359.9834 478.2566 L 345.2295 477.8684 L 344.55 470.362 L 342.269 470.362 Z" 
+          data-fips="13089" fill="#e0e0e0" stroke="#666" stroke-width="1"/>
+    
+    <!-- ADD ALL OTHER PATHS FROM assets/ga-counties.svg HERE -->
+    <!-- For non-clickable counties: fill="#f8f8f8" stroke="#ddd" stroke-width="0.3" -->
   </svg>
 </div>
 
@@ -130,6 +132,7 @@
     });
   });
 </script>
+
 
 
 

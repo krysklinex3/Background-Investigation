@@ -455,7 +455,7 @@
 <text transform="matrix(1 0 0 1 372.6502 265.7354)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Spald.</text>
 <text transform="matrix(1 0 0 1 407.322 263.1018)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Butts</text>
 <text transform="matrix(1 0 0 1 642.5618 557.5605)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Camden</text>
-<text transform="matrix(1 0 0 1 225.3453 67.7095)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Dade</text>
+<text transform="matrix(1 0 0 1 230.3453 67.7095)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Dade</text>
 <text transform="matrix(1 0 0 1 703.08 416.4257)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Chatham</text>
 <text transform="matrix(1 0 0 1 613.3647 214.6985)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Columbia</text>
 <text transform="matrix(1 0 0 1 459.4772 58.1712)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Rabun</text>
@@ -482,6 +482,7 @@
 <text transform="matrix(1 0 0 1 604.3694 373.8602)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Cand.</text>
 <text transform="matrix(0.1964 -0.9805 0.9805 0.1964 314.105 82.7694)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Whitfield</text>
 </svg>
+
 
 
 

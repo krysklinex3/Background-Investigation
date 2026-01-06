@@ -9,5 +9,84 @@
   <p>This page will show the Georgia county map and investigation links.</p>
 
   <p><a href="../index.html">Back to US map</a></p>
+
+  <h2>County Investigation Links</h2>
+  <p>Select a county below (for now, this is a manual test; later it will respond to map clicks).</p>
+
+  <label for="county-select">Choose a county:</label>
+  <select id="county-select">
+    <option value="">-- Select a county --</option>
+    <option value="13121">Fulton</option>
+    <option value="13089">DeKalb</option>
+  </select>
+
+  <h3 id="county-name-heading"></h3>
+
+  <table id="county-links-table" border="1" cellpadding="4">
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Label</th>
+        <th>URL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Rows will be filled by JavaScript -->
+    </tbody>
+  </table>
+
+  <script>
+    async function loadCountyData() {
+      const response = await fetch('../data/ga-counties.json');
+      const counties = await response.json();
+
+      const select = document.getElementById('county-select');
+      const heading = document.getElementById('county-name-heading');
+      const tbody = document.querySelector('#county-links-table tbody');
+
+      function renderCounty(fips) {
+        tbody.innerHTML = '';
+        heading.textContent = '';
+
+        if (!fips) return;
+
+        const county = counties.find(c => c.fips === fips);
+        if (!county) return;
+
+        heading.textContent = county.name + ' County';
+
+        const addRow = (category, item) => {
+          const tr = document.createElement('tr');
+
+          const tdCat = document.createElement('td');
+          tdCat.textContent = category;
+
+          const tdLabel = document.createElement('td');
+          tdLabel.textContent = item.label;
+
+          const tdUrl = document.createElement('td');
+          const a = document.createElement('a');
+          a.href = item.url;
+          a.textContent = item.url;
+          a.target = '_blank';
+          tdUrl.appendChild(a);
+
+          tr.appendChild(tdCat);
+          tr.appendChild(tdLabel);
+          tr.appendChild(tdUrl);
+          tbody.appendChild(tr);
+        };
+
+        (county.courtSites || []).forEach(site => addRow('Court', site));
+        (county.otherResources || []).forEach(res => addRow('Other', res));
+      }
+
+      select.addEventListener('change', () => {
+        renderCounty(select.value);
+      });
+    }
+
+    loadCountyData();
+  </script>
 </body>
 </html>

@@ -6,7 +6,15 @@
 </head>
 <body>
   <h1>Georgia Counties</h1>
+
   <p>This page will show the Georgia county map and investigation links.</p>
+
+  <!-- GEORGIA COUNTY MAP - clickable -->
+<div id="ga-map-container" style="max-width: 800px; margin: 20px 0;">
+  <object id="ga-map" data="../assets/ga-counties.svg" type="image/svg+xml" style="width: 100%; height: auto;">
+    SVG not supported by this browser.
+  </object>
+</div>
 
   <p><a href="../index.html">Back to US map</a></p>
 
@@ -90,8 +98,72 @@
         renderCounty(select.value);
       });
     }
+// Make SVG counties clickable
+function makeMapClickable(counties) {
+  const mapObject = document.getElementById('ga-map');
+  
+  // Wait for SVG to load, then attach clicks
+  mapObject.addEventListener('load', () => {
+    const svgDoc = mapObject.contentDocument;
+    if (!svgDoc) return;
+    
+    // Find all path elements (counties) in the SVG
+    const paths = svgDoc.querySelectorAll('path, polygon');
+    
+    paths.forEach(path => {
+      path.style.cursor = 'pointer';
+      path.style.stroke = '#666';
+      path.style.strokeWidth = '0.5';
+      path.style.transition = 'fill 0.3s';
+      
+      path.addEventListener('mouseenter', () => {
+        path.style.fill = '#ff6b6b';
+      });
+      
+      path.addEventListener('mouseleave', () => {
+        path.style.fill = '#e0e0e0';
+      });
+      
+      path.addEventListener('click', (e) => {
+        // Try to get FIPS from path attributes (id, data-fips, etc.)
+        let fips = path.getAttribute('data-fips') || 
+                   path.id?.replace('fips-', '') ||
+                   path.getAttribute('id');
+        
+        // If no FIPS found, try county name lookup
+        if (!fips || !counties.find(c => c.fips === fips)) {
+          const countyName = path.getAttribute('title') || path.id;
+          const county = counties.find(c => 
+            c.name.toLowerCase().includes(countyName?.toLowerCase())
+          );
+          fips = county?.fips;
+        }
+        
+        if (fips) {
+          renderCounty(fips);
+          document.getElementById('county-select').value = fips;
+        }
+      });
+    });
+  });
+}
+
+// Update loadCountyData to also wire up map clicks
+async function loadCountyData() {
+  // ... your existing code ...
+  
+  select.addEventListener('change', () => {
+    renderCounty(select.value);
+  });
+  
+  // NEW: Make map clickable after data loads
+  makeMapClickable(counties);
+}
+
+loadCountyData();
 
     loadCountyData();
   </script>
 </body>
 </html>
+

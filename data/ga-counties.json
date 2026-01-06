@@ -4,8 +4,16 @@
     "name": "Fulton",
     "courtSites": [
       {
-        "label": "Fulton Superior Court",
-        "url": "https://example.com/fulton-superior"
+        "label": "Fulton County Magistrate, State and Superior Court",
+        "url": "https://portal-gafulton.tylertech.cloud/Portal/"
+      },
+      {
+        "label": "Fulton County State Court - Traffic",
+        "url": "https://fultoncountygastatecourttraffic.municipalonlinepayments.com/fultoncountygastatecourttraffic/court/search"
+           },
+      {
+        "label": "Fulton County State Court - Criminal",
+        "url": "https://fultoncountygastatecourtcriminal.municipalonlinepayments.com/fultoncountygastatecourtcriminal/court/search"
       }
     ],
     "otherResources": [

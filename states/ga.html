@@ -26,7 +26,7 @@
     <thead>
       <tr>
         <th>Category</th>
-        <th>Court</th>
+        <th>Label</th>
         <th>URL</th>
         <th>Notes</th>
       </tr>
@@ -71,6 +71,9 @@
           a.textContent = item.url;
           a.target = '_blank';
           tdUrl.appendChild(a);
+
+          const tdNotes = document.createElement('td');
+          tdNotes.textContent = item.notes || '';
 
           tr.appendChild(tdCat);
           tr.appendChild(tdLabel);

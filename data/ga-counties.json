@@ -11,12 +11,12 @@
       {
         "label": "Fulton County State Court - Traffic",
         "url": "https://fultoncountygastatecourttraffic.municipalonlinepayments.com/fultoncountygastatecourttraffic/court/search"
-        "notes": "",
+        "notes": "This is an online payment website for violations.",
            },
       {
         "label": "Fulton County State Court - Criminal",
         "url": "https://fultoncountygastatecourtcriminal.municipalonlinepayments.com/fultoncountygastatecourtcriminal/court/search"
-        "notes": "",
+        "notes": "This is an online payment website for violations.",
       }
     ],
     "otherResources": [

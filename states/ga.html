@@ -8,11 +8,11 @@
   <h1><center>Georgia Counties</center></h1>
   <!-- GEORGIA COUNTY MAP - clickable -->
 
-<div id="ga-map-container" style="max-width: 1000px; margin: 20px 0; height: 500px; position: relative;">
+<div id="ga-map-container" style="max-width: 1000px; margin: 20px 0; height: 500px; overflow: hidden; position: relative;">
   <!-- FULL MAP -->
-  <img src="../assets/GA-counties.svg" style="width: auto; height: auto; object-fit: cover; position: absolute; top: 0; left: 0; z-index: 1;">
+  <img src="../assets/GA-counties.svg" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: 1;">
   
-  <!-- CLICK LAYER -->
+  <!-- RED OUTLINE CLICK AREAS (for alignment testing) -->
   <svg id="ga-map" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 2; pointer-events: none;">
     <g style="pointer-events: all;">
       <path data-fips="13121" d="M 342.5602 456.7082 L 342.4146 464.9911 L 342.269 470.362 L 330.9609 470.1679 L 321.8853 471.9798 L 320.3322 468.4207 L 319.216 456.7082 L 316.4011 454.1198 L 312.6641 447.7134 L 312.6641 439.3011 L 311.2566 437.9422 L 317.8086 438.2011 L 328.9711 438.3952 L 328.874 445.8369 L 330.427 456.7729 L 342.5602 456.7082 Z" fill="transparent" stroke="red"/>
@@ -125,5 +125,6 @@
     });
   });
 </script>
+
 
 

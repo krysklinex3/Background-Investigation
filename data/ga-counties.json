@@ -22,7 +22,7 @@
     "otherResources": [
       {
         "label": "Fulton Property Records",
-        "url": "https://example.com/fulton-property",
+        "url": "https://qpublic.schneidercorp.com/Application.aspx?App=FultonCountyGA&Layer=Parcels&PageType=Search",
         "notes": ""
       }
     ]

@@ -11,7 +11,10 @@
 
   <!-- GEORGIA COUNTY MAP - clickable -->
 <div id="ga-map-container" style="max-width: 800px; margin: 20px 0;">
-  <object id="ga-map" data="../assets/GA-counties.svg" type="image/svg+xml" style="width: auto; height: auto;">
+  <object id="ga-map" 
+          data="../assets/GA-counties.svg" 
+          type="image/svg+xml" 
+          style="width: auto; height: auto;">
     SVG not supported by this browser.
   </object>
 </div>
@@ -44,124 +47,104 @@
     </tbody>
   </table>
 
-  <script>
-    async function loadCountyData() {
-      const response = await fetch('../data/ga-counties.json');
-      const counties = await response.json();
+<script>
+  async function loadCountyData() {
+    const response = await fetch('../data/ga-counties.json');
+    const counties = await response.json();
 
-      const select = document.getElementById('county-select');
-      const heading = document.getElementById('county-name-heading');
-      const tbody = document.querySelector('#county-links-table tbody');
+    const select = document.getElementById('county-select');
+    const heading = document.getElementById('county-name-heading');
+    const tbody = document.querySelector('#county-links-table tbody');
 
-      function renderCounty(fips) {
-        tbody.innerHTML = '';
-        heading.textContent = '';
+    function renderCounty(fips) {
+      tbody.innerHTML = '';
+      heading.textContent = '';
 
-        if (!fips) return;
+      if (!fips) return;
 
-        const county = counties.find(c => c.fips === fips);
-        if (!county) return;
+      const county = counties.find(c => c.fips === fips);
+      if (!county) return;
 
-        heading.textContent = county.name + ' County';
+      heading.textContent = county.name + ' County';
 
-        const addRow = (category, item) => {
-          const tr = document.createElement('tr');
+      const addRow = (category, item) => {
+        const tr = document.createElement('tr');
 
-          const tdCat = document.createElement('td');
-          tdCat.textContent = category;
+        const tdCat = document.createElement('td');
+        tdCat.textContent = category;
 
-          const tdLabel = document.createElement('td');
-          tdLabel.textContent = item.label;
+        const tdLabel = document.createElement('td');
+        tdLabel.textContent = item.label;
 
-          const tdUrl = document.createElement('td');
-          const a = document.createElement('a');
-          a.href = item.url;
-          a.textContent = item.url;
-          a.target = '_blank';
-          tdUrl.appendChild(a);
+        const tdUrl = document.createElement('td');
+        const a = document.createElement('a');
+        a.href = item.url;
+        a.textContent = item.url;
+        a.target = '_blank';
+        tdUrl.appendChild(a);
 
-          const tdNotes = document.createElement('td');
-          tdNotes.textContent = item.notes || '';
+        const tdNotes = document.createElement('td');
+        tdNotes.textContent = item.notes || '';
 
-          tr.appendChild(tdCat);
-          tr.appendChild(tdLabel);
-          tr.appendChild(tdUrl);
-          tr.appendChild(tdNotes);
-          tbody.appendChild(tr);
-        };
+        tr.appendChild(tdCat);
+        tr.appendChild(tdLabel);
+        tr.appendChild(tdUrl);
+        tr.appendChild(tdNotes);
+        tbody.appendChild(tr);
+      };
 
-        (county.courtSites || []).forEach(site => addRow('Court', site));
-        (county.otherResources || []).forEach(res => addRow('Other', res));
-      }
-
-      select.addEventListener('change', () => {
-        renderCounty(select.value);
-      });
+      (county.courtSites || []).forEach(site => addRow('Court', site));
+      (county.otherResources || []).forEach(res => addRow('Other', res));
     }
-// Make SVG counties clickable
-function makeMapClickable(counties) {
-  const mapObject = document.getElementById('ga-map');
-  
-  // Wait for SVG to load, then attach clicks
-  mapObject.addEventListener('load', () => {
-    const svgDoc = mapObject.contentDocument;
-    if (!svgDoc) return;
-    
-    // Find all path elements (counties) in the SVG
-    const paths = svgDoc.querySelectorAll('path, polygon');
-    
-    paths.forEach(path => {
-      path.style.cursor = 'pointer';
-      path.style.stroke = '#666';
-      path.style.strokeWidth = '0.5';
-      path.style.transition = 'fill 0.3s';
-      
-      path.addEventListener('mouseenter', () => {
-        path.style.fill = '#ff6b6b';
-      });
-      
-      path.addEventListener('mouseleave', () => {
-        path.style.fill = '#e0e0e0';
-      });
-      
-      path.addEventListener('click', (e) => {
-        // Try to get FIPS from path attributes (id, data-fips, etc.)
-        let fips = path.getAttribute('data-fips') || 
-                   path.id?.replace('fips-', '') ||
-                   path.getAttribute('id');
-        
-        // If no FIPS found, try county name lookup
-        if (!fips || !counties.find(c => c.fips === fips)) {
-          const countyName = path.getAttribute('title') || path.id;
-          const county = counties.find(c => 
-            c.name.toLowerCase().includes(countyName?.toLowerCase())
-          );
-          fips = county?.fips;
-        }
-        
-        if (fips) {
-          renderCounty(fips);
-          document.getElementById('county-select').value = fips;
-        }
+
+    // Dropdown wiring
+    select.addEventListener('change', () => {
+      renderCounty(select.value);
+    });
+
+    // MAP WIRING (NEW)
+    const mapObject = document.getElementById('ga-map');
+
+    mapObject.addEventListener('load', () => {
+      const svgDoc = mapObject.contentDocument;
+      if (!svgDoc) return;
+
+      // Adjust selector to match your SVG: paths and/or groups
+      const paths = svgDoc.querySelectorAll('path');
+
+      paths.forEach(path => {
+        path.style.cursor = 'pointer';
+
+        path.addEventListener('click', () => {
+          // Try to get FIPS from data-fips or id
+          let fips = path.getAttribute('data-fips');
+
+          if (!fips && path.id) {
+            // If ids are like "fips-13121", strip the prefix
+            if (path.id.startsWith('fips-')) {
+              fips = path.id.replace('fips-', '');
+            } else {
+              // As a fallback, try to match by county name
+              const county = counties.find(c =>
+                c.name.toLowerCase() === path.id.toLowerCase()
+              );
+              fips = county && county.fips;
+            }
+          }
+
+          if (fips) {
+            renderCounty(fips);
+            select.value = fips;
+          }
+        });
       });
     });
-  });
-}
+  }
 
-// Update loadCountyData to also wire up map clicks
-async function loadCountyData() {
-  // ... your existing code ...
-  
-  select.addEventListener('change', () => {
-    renderCounty(select.value);
-  });
-  
-  // NEW: Make map clickable after data loads
-  makeMapClickable(counties);
-}
+  loadCountyData();
+</script>
 
-loadCountyData();
-  </script>
 </body>
 </html>
+
 

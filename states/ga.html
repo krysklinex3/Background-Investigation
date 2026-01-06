@@ -8,12 +8,12 @@
   <h1><center>Georgia Counties</center></h1>
   <!-- GEORGIA COUNTY MAP - clickable -->
 
-<div id="ga-map-container" style="max-width: 1000px; margin: 20px 0; height: 1000px; overflow: hidden; position: relative;">
+<div id="ga-map-container" style="max-width: 1000px; width: 100%; height: 1000px; max-height: 80vh; overflow: hidden; position: relative; margin: 20px auto">
   <!-- FULL MAP -->
-  <img src="../assets/GA-counties.svg" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: 1;">
+ <img src="../assets/GA-counties.svg" style="width: 100%; height: 100%; object-fit: contain; position: absolute; top: 0; left: 0; z-index: 1;">
   
   <!-- RED OUTLINE CLICK AREAS (for alignment testing) -->
-  <svg id="ga-map" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 2; pointer-events: none;">
+  <svg id="ga-map" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 2; pointer-events: none; preserveAspectRatio="xMidYMid meet"">
     <g style="pointer-events: all;">
       <path data-fips="10000" d="M 293.7849 68.5119 L 301.0163 68.5119 L 303.0546 68.5119 L 302.909 83.5247 L 308.7815 83.5894 L 308.733 92.7135 L 314.0715 93.6841 L 311.7905 99.0551 L 322.8559 99.2492 L 322.8074 110.5088 L 321.8853 110.5088 L 321.0117 114.5208 L 320.7205 114.5208 L 317.3718 114.4561 L 292.5231 113.9384 L 277.9147 113.8737 L 277.4779 110.8971 L 277.3323 109.797 L 281.4576 104.5555 L 281.5062 101.1905 L 285.3888 94.3312 L 285.4858 85.9189 L 287.1359 81.001 L 293.7849 68.5119 Z" fill="transparent" stroke="red"/>
       <path data-fips="10001" d="M 380.4156 393.9393 L 404.2937 394.8452 L 404.4878 386.6271 L 409.0499 386.8212 L 409.0013 391.7392 L 413.8546 391.0273 L 419.3388 393.3569 L 419.1932 395.7512 L 422.9787 402.0928 L 423.9494 407.9167 L 425.7936 409.5345 L 429.3365 419.1116 L 429.5792 423.4471 L 421.0374 423.0589 L 389.2971 422.7353 L 389.2486 427.6533 L 379.3964 417.6879 L 379.0567 416.8467 L 379.2994 408.2402 L 380.1244 408.2402 L 380.3186 397.6278 L 380.3671 394.9747 L 380.4156 393.9393 Z" fill="transparent" stroke="red"/>
@@ -135,6 +135,7 @@
     });
   });
 </script>
+
 
 
 

@@ -331,7 +331,7 @@
 <text transform="matrix(1 0 0 1 329.2187 485.1165)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Calhoun</text>
 <text transform="matrix(1 0 0 1 313.3459 249.5062)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Coweta</text>
 <text transform="matrix(1 0 0 1 326.496 294.0656)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Meriw.</text>
-<text transform="matrix(0.8136 -0.5814 0.5814 0.8136 477.6042 377.0988)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Bleckl.</text>
+<text transform="matrix(0.8136 -0.5814 0.5814 0.8136 477.6042 377.0988)" style="font-family:'tahoma'; font-size:10px;" class="maplabels1">Bleckley</text>
 <text transform="matrix(1 0 0 1 513.1329 363.5383)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Laurens</text>
 <text transform="matrix(1 0 0 1 646.171 329.4427)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Screven</text>
 <text transform="matrix(1 0 0 1 616.0742 285.9154)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Burke</text>
@@ -400,7 +400,7 @@
 <text transform="matrix(1 0 0 1 446.3564 565.7642)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Brooks</text>
 <text transform="matrix(1 0 0 1 458.1768 336.7035)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Twiggs</text>
 <text transform="matrix(1 0 0 1 375.157 530.8344)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Mitchell</text>
-<text transform="matrix(1 0 0 1 478.9128 124.7258)" style="font-family:'Franklin Gothic Book'; font-size:8px;" class="maplabels1">Franklin</text>
+<text transform="matrix(1 0 0 1 478.9128 124.7258)" style="font-family:'tahoma'; font-size:8px;" class="maplabels1">Franklin</text>
 <text transform="matrix(1 0 0 1 367.0694 481.1656)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Dougherty</text>
 <text transform="matrix(0.7299 -0.6835 0.6835 0.7299 544.8451 460.7005)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Jeff Davis</text>
 <text transform="matrix(1 0 0 1 511.7988 434.577)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Telfair</text>
@@ -482,6 +482,7 @@
 <text transform="matrix(1 0 0 1 604.3694 373.8602)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Cand.</text>
 <text transform="matrix(0.1964 -0.9805 0.9805 0.1964 314.105 82.7694)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Whitfield</text>
 </svg>
+
 
 
 

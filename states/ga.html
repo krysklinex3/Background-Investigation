@@ -7,28 +7,12 @@
 <body>
   <h1><center>Georgia Counties</center></h1>
   <!-- GEORGIA COUNTY MAP - clickable -->
-<div id="ga-map-container" style="max-width: 800px; margin: 20px 0;">
-  <!-- INLINE SVG - much easier for clicks -->
-  <svg id="ga-map" viewBox="0 0 800 700" style="width: 100%; height: auto; overflow: visible;">
-    <svg id="ga-map" viewBox="0 0 1000 800" style="width: 100%; height: auto; overflow: visible;">
-  <!-- FULTON COUNTY - clickable -->
-  <path 
-    data-fips="13121" 
-    d="M 342.5602 456.7082 L 342.4146 464.9911 L 342.269 470.362 L 330.9609 470.1679 L 321.8853 471.9798 L 320.3322 468.4207 L 319.216 456.7082 L 316.4011 454.1198 L 312.6641 447.7134 L 312.6641 439.3011 L 311.2566 437.9422 L 317.8086 438.2011 L 328.9711 438.3952 L 328.874 445.8369 L 330.427 456.7729 L 342.5602 456.7082 Z" 
-    fill="#e0e0e0" 
-    stroke="#666" 
-    stroke-width="1"
-  />
-  
-  <!-- SECOND COUNTY - clickable (you can find its FIPS from your JSON or add more) -->
-  <path 
-    data-fips="13089" 
-    d="M 342.269 470.362 L 342.4146 464.9911 L 342.5602 456.7082 L 358.2362 456.8376 L 358.9642 454.055 L 364.0116 456.6435 L 368.9134 456.7082 L 378.2802 456.7082 L 378.3287 456.7082 L 377.8434 465.1205 L 381.9687 475.6682 L 380.27 477.9978 L 378.5229 475.8624 L 374.3005 478.9685 L 359.9834 478.2566 L 345.2295 477.8684 L 344.55 470.362 L 342.269 470.362 Z" 
-    fill="#e0e0e0" 
-    stroke="#666" 
-    stroke-width="1"
-  />
-</svg>
+<div id="ga-map-container" style="max-width: 1000px; margin: 20px 0;">
+  <!-- FULL GEORGIA COUNTY MAP -->
+  <svg id="ga-map" style="width: 100%; height: auto; overflow: visible;">
+    <path data-fips="13121" d="M 342.5602 456.7082 L 342.4146 464.9911..." fill="#e0e0e0" stroke="#333" stroke-width="0.5"/>
+    <path data-fips="13089" d="M 342.269 470.362 L 342.4146 464.9911..." fill="#e0e0e0" stroke="#333" stroke-width="0.5"/>
+  </svg>
 </div>
 
   <p><a href="../index.html">Back to US map</a></p>
@@ -135,4 +119,5 @@
     });
   });
 </script>
+
 

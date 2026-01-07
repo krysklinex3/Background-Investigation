@@ -366,7 +366,7 @@
 <text transform="matrix(1 0 0 1 446.7742 293.5676)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Jones</text>
 <text transform="matrix(1 0 0 1 283.0647 260.6106)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Heard</text>
 <text transform="matrix(1 0 0 1 320.6905 526.9705)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Miller</text>
-<text transform="matrix(0.8442 -0.536 0.536 0.8442 270.4748 687.0481)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Seminole</text>
+<text transform="matrix(0.7555e-02 1 -1 0.7555e-02 317.4748 542.0481)" style="font-family:'Franklin Gothic Book'; font-size:8px;" class="maplabels1">Seminole</text>
 <text transform="matrix(1 0 0 1 422.8863 129.1746)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Hall</text>
 <text transform="matrix(1 0 0 1 400.9694 102.6592)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Lump.</text>
 <text transform="matrix(1 0 0 1 390.2783 138.8196)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Fors.</text>
@@ -481,4 +481,5 @@
 <text transform="matrix(1 0 0 1 604.3694 373.8602)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Cand.</text>
 <text transform="matrix(0.1964 -0.9805 0.9805 0.1964 314.105 82.7694)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Whitfield</text>
 </svg>
+
 

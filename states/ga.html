@@ -511,8 +511,7 @@
     <thead>
       <tr>
         <th>Category</th>
-        <th>Label</th>
-        <th>URL</th>
+        <th>Department</th>
         <th>Notes</th>
       </tr>
     </thead>
@@ -549,24 +548,19 @@ document.addEventListener('DOMContentLoaded', async () => {
       const tdCat = document.createElement('td');
       tdCat.textContent = category;
 
-      const tdLabel = document.createElement('td');
-      tdLabel.textContent = item.label;
-
-      const tdUrl = document.createElement('td');
+      const tdLink = document.createElement('td');
       const a = document.createElement('a');
       a.href = item.url;
-      a.textContent = item.url;
+      a.textContent = item.label;   // label becomes the clickable text
       a.target = '_blank';
-      tdUrl.appendChild(a);
+      tdLink.appendChild(a);
 
       const tdNotes = document.createElement('td');
       tdNotes.textContent = item.notes || '';
 
       tr.appendChild(tdCat);
-      tr.appendChild(tdLabel);
-      tr.appendChild(tdUrl);
+      tr.appendChild(tdLink);
       tr.appendChild(tdNotes);
-      tbody.appendChild(tr);
     };
 
     (county.courtSites || []).forEach(site => addRow('Court', site));
@@ -596,6 +590,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 });
 </script>
+
 
 
 

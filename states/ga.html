@@ -522,7 +522,23 @@
   </table>
 
 <script>
-  // Wait for page + data to load
+const statewide = [
+    {
+      category: 'Statewide',
+      label: 'Georgia Courts (search)',
+      url: 'https://georgiacourts.gov/',
+      recordType: "Criminal History",
+      notes: ''
+    },
+    {
+      category: 'Statewide',
+      label: 'Georgia Secretary of State',
+      url: 'https://ecorp.sos.ga.gov/BusinessSearch',
+      recordType: "Business Entity",
+      notes: ''
+    }
+  ];
+  
 document.addEventListener('DOMContentLoaded', async () => {
   const response = await fetch('../data/ga-counties.json');
   const counties = await response.json();
@@ -597,6 +613,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 });
 </script>
+
 
 
 

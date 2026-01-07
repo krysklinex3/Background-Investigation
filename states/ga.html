@@ -380,7 +380,7 @@
 
       if (!fips) return;
 
-      const county = counties.find(c => c.fips === fips);
+      const county = counties.find(c => String(c.fips) === String(fips).trim());
       if (!county) return;
 
       heading.textContent = county.name + ' County';
@@ -410,7 +410,11 @@
         tr.appendChild(tdNotes);
         tbody.appendChild(tr);
       };
-
+      
+      (county.courtSites || []).forEach(site => addRow('Court', site));
+      (county.otherResources || []).forEach(res => addRow('Other', res));
+    }
+    
     // Dropdown still works
     select.addEventListener('change', () => {
       renderCounty(select.value);
@@ -429,4 +433,5 @@
     });
   });
 </script>
+
 

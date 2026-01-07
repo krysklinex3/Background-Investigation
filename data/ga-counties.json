@@ -1,5 +1,25 @@
 [
   {
+    "fips": "13001",
+    "name": "Appling",
+    "courtSites": [
+      {
+        "label": "Appling County Court Records",
+        "url": "",
+        "notes": ""
+      },
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Appling Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  
+  {
     "fips": "13121",
     "name": "Fulton",
     "courtSites": [
@@ -45,5 +65,26 @@
         "notes": ""
       }
     ]
-  }
+  },
+
+    {
+    "fips": "13295",
+    "name": "Walker",
+    "courtSites": [
+      {
+        "label": "Walker County Court Records",
+        "url": "",
+        "notes": ""
+      },
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Walker Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  
 ]

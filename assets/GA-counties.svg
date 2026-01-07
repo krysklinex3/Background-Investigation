@@ -321,165 +321,166 @@
 <path d="M 314.0715 93.6841 L 315.3819 87.6661 L 321.9338 87.7955 L 321.9824 82.6187 L 325.5738 81.8422 L 325.6223 78.4125 L 329.7961 68.4472 L 332.3198 68.4472 L 345.6177 68.5119 L 342.5602 76.536 L 344.7927 81.3245 L 342.5117 83.2011 L 340.5704 88.572 L 342.8029 90.6428 L 339.1144 92.4547 L 341.6381 96.7902 L 340.3277 100.867 L 333.8728 100.867 L 338.0952 104.1672 L 334.2126 104.3613 L 335.6686 109.2793 L 334.4552 111.35 L 322.8074 111.2206 L 322.8074 110.5088 L 322.8559 99.2492 L 311.7905 99.0551 L 314.0715 93.6841 Z" fill="#eee" fill-opacity="1" stroke="#000000" stroke-width="0.3636363557547579" paint-order="fill" stroke-opacity="1" stroke-dasharray="" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" transform="matrix(1.100000023841858,0,0,1.100000023841858,-49.99999237060547,-33.34999465942383)" clip-path="none"/>
 <path d="M -5 -5 L 5 -5 L 5 5 L -5 5 L -5 -5 Z" fill="none" fill-opacity="1" stroke="#ccc" stroke-width="0" paint-order="fill" stroke-opacity="1" stroke-dasharray="" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" transform="matrix(1,0,0,1,995,333.5)" clip-path="none"/>
 <path fill="rgba(255,255,255,0)" fill-opacity="0" stroke="#ccc" stroke-width="0" paint-order="fill" stroke-opacity="1" stroke-dasharray="" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" transform="matrix(1,0,0,1,15,10)" clip-path="none"/>
-<text transform="matrix(1 0 0 1 265.7962 84.6863)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Walker</text>
-<text transform="matrix(1 0 0 1 376.7852 421.6938)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Sumter</text>
-<text transform="matrix(0.845 0.5348 -0.5348 0.845 662.9872 433.2256)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Liberty</text>
-<text transform="matrix(1 0 0 1 576.2651 454.9351)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Appling</text>
-<text transform="matrix(8.404342e-03 -1 1 8.404342e-03 593.1052 421.6935)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Toombs</text>
-<text transform="matrix(1 0 0 1 303.7001 478.994)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Clay</text>
-<text transform="matrix(1 0 0 1 329.2187 485.1165)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Calhoun</text>
-<text transform="matrix(1 0 0 1 313.3459 249.5062)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Coweta</text>
-<text transform="matrix(1 0 0 1 326.496 294.0656)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Meriw.</text>
-<text transform="matrix(0.8136 -0.5814 0.5814 0.8136 477.6042 377.0988)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Bleckl.</text>
-<text transform="matrix(1 0 0 1 513.1329 363.5383)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Laurens</text>
-<text transform="matrix(1 0 0 1 646.171 329.4427)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Screven</text>
-<text transform="matrix(1 0 0 1 616.0742 285.9154)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Burke</text>
-<text transform="matrix(1 0 0 1 291.7949 292.642)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Troup</text>
-<text transform="matrix(1 0 0 1 298.1459 328.5529)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Harris</text>
-<text transform="matrix(6.340341e-02 -0.998 0.998 6.340341e-02 339.0729 80.8362)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Murray</text>
-<text transform="matrix(1 0 0 1 334.6106 569.252)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Decatur</text>
-<text transform="matrix(1 0 0 1 374.6502 566.2626)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Grady</text>
-<text transform="matrix(1 0 0 1 422.8864 431.5521)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Crisp</text>
-<text transform="matrix(1 0 0 1 437.1115 461.8401)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Turner</text>
-<text transform="matrix(0.9999 -1.060116e-02 1.060116e-02 0.9999 388.6895 286.3227)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Lam.</text>
-<text transform="matrix(1 0 0 1 364.2396 287.9441)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Pike</text>
-<text transform="matrix(1 0 0 1 321.5847 206.6195)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Doug.</text>
-<text transform="matrix(1 0 0 1 341.1594 178.6098)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Cobb</text>
-<text transform="matrix(1 0 0 1 397.6328 382.4017)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Macon</text>
-<text transform="matrix(1 0 0 1 372.3546 395.205)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Schl.</text>
-<text transform="matrix(1 0 0 1 372.6502 350.0497)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Taylor</text>
-<text transform="matrix(1 0 0 1 440.6617 154.1236)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Jackson</text>
-<text transform="matrix(1 0 0 1 591.6633 506.7545)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Pierce</text>
-<text transform="matrix(1 0 0 1 622.5557 478.6381)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Wayne</text>
-<text transform="matrix(1 0 0 1 283.0645 225.6247)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Carroll</text>
-<text transform="matrix(1 0 0 1 312.7758 183.308)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Pauld.</text>
-<text transform="matrix(1 0 0 1 311.5747 136.2216)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Bartow</text>
-<text transform="matrix(1 0 0 1 565.3791 474.937)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Bacon</text>
-<text transform="matrix(1 0 0 1 569.8463 530.834)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Ware</text>
-<text transform="matrix(1 0 0 1 273.9109 139.9585)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Floyd</text>
-<text transform="matrix(1 0 0 1 279.9599 166.936)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Polk</text>
-<text transform="matrix(0.7574 -0.6529 0.6529 0.7574 424.7054 356.9188)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Peach</text>
-<text transform="matrix(1 0 0 1 403.6918 333.6422)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Crawf.</text>
-<text transform="matrix(0.7464 -0.6655 0.6655 0.7464 351.2332 219.2184)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Fulton</text>
-<text transform="matrix(1 0 0 1 365.8948 225.6249)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Clay.</text>
-<text transform="matrix(1 0 0 1 478.9129 289.7947)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Baldw.</text>
-<text transform="matrix(1 0 0 1 446.7742 293.5676)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Jones</text>
-<text transform="matrix(1 0 0 1 283.0647 260.6106)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Heard</text>
-<text transform="matrix(1 0 0 1 320.6905 526.9705)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Miller</text>
+<text transform="matrix(1 0 0 1 265.7962 84.6863)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Walker</text>
+<text transform="matrix(1 0 0 1 376.7852 421.6938)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Sumter</text>
+<text transform="matrix(0.845 0.5348 -0.5348 0.845 662.9872 433.2256)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Liberty</text>
+<text transform="matrix(1 0 0 1 576.2651 454.9351)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Appling</text>
+<text transform="matrix(8.404342e-03 -1 1 8.404342e-03 593.1052 421.6935)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Toombs</text>
+<text transform="matrix(1 0 0 1 303.7001 478.994)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Clay</text>
+<text transform="matrix(1 0 0 1 329.2187 485.1165)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Calhoun</text>
+<text transform="matrix(1 0 0 1 313.3459 249.5062)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Coweta</text>
+<text transform="matrix(1 0 0 1 326.496 294.0656)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Meriw.</text>
+<text transform="matrix(0.8136 -0.5814 0.5814 0.8136 477.6042 377.0988)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Bleckl.</text>
+<text transform="matrix(1 0 0 1 513.1329 363.5383)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Laurens</text>
+<text transform="matrix(1 0 0 1 646.171 329.4427)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Screven</text>
+<text transform="matrix(1 0 0 1 616.0742 285.9154)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Burke</text>
+<text transform="matrix(1 0 0 1 291.7949 292.642)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Troup</text>
+<text transform="matrix(1 0 0 1 298.1459 328.5529)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Harris</text>
+<text transform="matrix(6.340341e-02 -0.998 0.998 6.340341e-02 339.0729 80.8362)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Murray</text>
+<text transform="matrix(1 0 0 1 334.6106 569.252)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Decatur</text>
+<text transform="matrix(1 0 0 1 374.6502 566.2626)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Grady</text>
+<text transform="matrix(1 0 0 1 422.8864 431.5521)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Crisp</text>
+<text transform="matrix(1 0 0 1 437.1115 461.8401)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Turner</text>
+<text transform="matrix(0.9999 -1.060116e-02 1.060116e-02 0.9999 388.6895 286.3227)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Lam.</text>
+<text transform="matrix(1 0 0 1 364.2396 287.9441)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Pike</text>
+<text transform="matrix(1 0 0 1 321.5847 206.6195)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Doug.</text>
+<text transform="matrix(1 0 0 1 341.1594 178.6098)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Cobb</text>
+<text transform="matrix(1 0 0 1 397.6328 382.4017)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Macon</text>
+<text transform="matrix(1 0 0 1 372.3546 395.205)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Schl.</text>
+<text transform="matrix(1 0 0 1 372.6502 350.0497)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Taylor</text>
+<text transform="matrix(1 0 0 1 440.6617 154.1236)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Jackson</text>
+<text transform="matrix(1 0 0 1 591.6633 506.7545)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Pierce</text>
+<text transform="matrix(1 0 0 1 622.5557 478.6381)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Wayne</text>
+<text transform="matrix(1 0 0 1 283.0645 225.6247)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Carroll</text>
+<text transform="matrix(1 0 0 1 312.7758 183.308)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Pauld.</text>
+<text transform="matrix(1 0 0 1 311.5747 136.2216)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Bartow</text>
+<text transform="matrix(1 0 0 1 565.3791 474.937)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Bacon</text>
+<text transform="matrix(1 0 0 1 569.8463 530.834)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Ware</text>
+<text transform="matrix(1 0 0 1 273.9109 139.9585)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Floyd</text>
+<text transform="matrix(1 0 0 1 279.9599 166.936)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Polk</text>
+<text transform="matrix(0.7574 -0.6529 0.6529 0.7574 424.7054 356.9188)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Peach</text>
+<text transform="matrix(1 0 0 1 403.6918 333.6422)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Crawf.</text>
+<text transform="matrix(0.7464 -0.6655 0.6655 0.7464 351.2332 219.2184)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Fulton</text>
+<text transform="matrix(1 0 0 1 365.8948 225.6249)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Clay.</text>
+<text transform="matrix(1 0 0 1 478.9129 289.7947)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Baldw.</text>
+<text transform="matrix(1 0 0 1 446.7742 293.5676)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Jones</text>
+<text transform="matrix(1 0 0 1 283.0647 260.6106)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Heard</text>
+<text transform="matrix(1 0 0 1 320.6905 526.9705)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Miller</text>
 <text transform="matrix(0.7555e-02 1 -1 0.7555e-02 317.4748 542.0481)" style="font-family:'Franklin Gothic Book'; font-size:8px;" class="maplabels1">Seminole</text>
-<text transform="matrix(1 0 0 1 422.8863 129.1746)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Hall</text>
-<text transform="matrix(1 0 0 1 400.9694 102.6592)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Lump.</text>
-<text transform="matrix(1 0 0 1 390.2783 138.8196)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Fors.</text>
-<text transform="matrix(1 0 0 1 388.2696 119.1732)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Daws.</text>
-<text transform="matrix(0.8021 -0.5972 0.5972 0.8021 351.2328 151.2764)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Cherokee</text>
-<text transform="matrix(1 0 0 1 437.1117 322.8939)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Bibb</text>
-<text transform="matrix(0.3874 -0.9219 0.9219 0.3874 445.6269 378.772)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Houston</text>
-<text transform="matrix(1 0 0 1 457.6382 401.692)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Pulaski</text>
-<text transform="matrix(1 0 0 1 460.9059 252.6738)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Putnam</text>
-<text transform="matrix(0.2213 -0.9752 0.9752 0.2213 441.4544 97.8906)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">White</text>
-<text transform="matrix(1 0 0 1 640.6446 247.5843)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Richmond</text>
-<text transform="matrix(8.277444e-02 -0.9966 0.9966 8.277444e-02 583.8171 305.8197)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Jefferson</text>
-<text transform="matrix(1 0 0 1 589.8654 186.3683)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Lincoln</text>
-<text transform="matrix(-1.975125e-02 -0.9998 0.9998 -1.975125e-02 574.2074 242.9928)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">McDuf.</text>
-<text transform="matrix(1 0 0 1 520.5 156.7571)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Elbert</text>
-<text transform="matrix(1 0 0 1 528.9088 197.4018)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Wilkes</text>
-<text transform="matrix(0.4308 -0.9024 0.9024 0.4308 461.8288 102.659)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Haber.</text>
-<text transform="matrix(0.6463 -0.7631 0.7631 0.6463 406.7919 221.318)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Rockd.</text>
-<text transform="matrix(1 0 0 1 388.6893 179.7485)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Gwinnett</text>
-<text transform="matrix(1 0 0 1 555.0941 371.1904)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Treut.</text>
-<text transform="matrix(1 0 0 1 538.2117 561.351)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Clinch</text>
-<text transform="matrix(0.6438 -0.7652 0.7652 0.6438 485.7985 588.8989)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Lowndes</text>
-<text transform="matrix(1 0 0 1 613.3649 315.4201)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Jenkins</text>
-<text transform="matrix(1 0 0 1 418.3729 485.1158)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Worth</text>
-<text transform="matrix(1 0 0 1 664.4009 514.0511)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Glynn</text>
-<text transform="matrix(1 0 0 1 714.1838 494.5119)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">McIntosh</text>
-<text transform="matrix(0.6194 -0.7851 0.7851 0.6194 415.3394 310.7217)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Monroe</text>
-<text transform="matrix(0.7951 -0.6065 0.6065 0.7951 498.2375 195.764)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Oglethor.</text>
-<text transform="matrix(0.7484 0.6633 -0.6633 0.7484 456.8115 180.5313)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Oconee</text>
-<text transform="matrix(1 0 0 1 446.3564 565.7642)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Brooks</text>
-<text transform="matrix(1 0 0 1 458.1768 336.7035)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Twiggs</text>
-<text transform="matrix(1 0 0 1 375.157 530.8344)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Mitchell</text>
-<text transform="matrix(1 0 0 1 478.9128 124.7258)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Frank.</text>
-<text transform="matrix(1 0 0 1 367.0694 481.1656)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Dougherty</text>
-<text transform="matrix(0.7299 -0.6835 0.6835 0.7299 544.8451 460.7005)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Jeff Davis</text>
-<text transform="matrix(1 0 0 1 511.7988 434.577)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Telfair</text>
-<text transform="matrix(1 0 0 1 460.9059 430.3776)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Wilcox</text>
-<text transform="matrix(1 0 0 1 421.9497 405.0366)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Dooly</text>
-<text transform="matrix(1 0 0 1 426.4345 51.7205)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Towns</text>
-<text transform="matrix(1 0 0 1 261.9338 363.1826)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Muscogee</text>
-<text transform="matrix(1 0 0 1 344.0083 332.1832)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Talbot</text>
-<text transform="matrix(1 0 0 1 521.4609 223.0623)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Talia.</text>
-<text transform="matrix(1 0 0 1 496.4497 264.3474)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Hancock</text>
-<text transform="matrix(1 0 0 1 489.2163 456.3589)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Ben Hill</text>
-<text transform="matrix(1 0 0 1 432.8409 171.6339)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Barr.</text>
-<text transform="matrix(1 0 0 1 424.7056 198.8967)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Walton</text>
-<text transform="matrix(1 0 0 1 511.1455 122.0919)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Hart</text>
-<text transform="matrix(1 0 0 1 484.9983 154.9774)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Madis.</text>
-<text transform="matrix(1 0 0 1 518.7325 508.9614)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Atkinson</text>
-<text transform="matrix(0.6229 -0.7823 0.7823 0.6229 509.613 552.418)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Lanier</text>
-<text transform="matrix(1 0 0 1 518.2579 587.048)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Echols</text>
-<text transform="matrix(1 0 0 1 484.9985 513.9446)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Berrien</text>
-<text transform="matrix(1 0 0 1 458.1769 489.1377)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Tift</text>
-<text transform="matrix(1 0 0 1 368.457 313.4267)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Upson</text>
-<text transform="matrix(1.272720e-02 -0.9999 0.9999 1.272720e-02 356.0287 389.6499)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Marion</text>
-<text transform="matrix(1 0 0 1 306.4465 416.4261)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Stewart</text>
-<text transform="matrix(1 0 0 1 351.2335 447.1409)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Terrell</text>
-<text transform="matrix(1 0 0 1 390.2784 450.3083)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Lee</text>
-<text transform="matrix(1 0 0 1 414.0487 230.5006)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Newton</text>
-<text transform="matrix(1 0 0 1 451.8995 225.6248)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Morgan</text>
-<text transform="matrix(1 0 0 1 468.903 176.2606)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Clar.</text>
-<text transform="matrix(1 0 0 1 246.9476 388.594)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Chattahoochee</text>
-<text transform="matrix(1 0 0 1 448.3472 123.5511)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Banks</text>
-<text transform="matrix(1 0 0 1 719.0157 369.8737)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Effingham</text>
-<text transform="matrix(1 0 0 1 662.9872 405.037)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Bryan</text>
-<text transform="matrix(1 0 0 1 481.9375 475.72)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Irwin</text>
-<text transform="matrix(0.6717 0.7408 -0.7408 0.6717 627.3508 391.3703)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Evans</text>
-<text transform="matrix(1 0 0 1 640.6449 378.7716)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Bulloch</text>
-<text transform="matrix(1 0 0 1 491.992 410.5533)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Dodge</text>
-<text transform="matrix(1 0 0 1 532.8323 407.3152)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Whee.</text>
-<text transform="matrix(1 0 0 1 230.2325 197.3306)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Haralson</text>
-<text transform="matrix(1 0 0 1 521.6208 485.1158)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Coffee</text>
-<text transform="matrix(1 0 0 1 607.6794 423.8286)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Tattnall</text>
-<text transform="matrix(1 0 0 1 307.4906 104.9375)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Gordon</text>
-<text transform="matrix(1 0 0 1 351.233 84.6862)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Gilmer</text>
-<text transform="matrix(1 0 0 1 360.6094 51.7202)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Fannin</text>
-<text transform="matrix(1 0 0 1 478.9126 320.2961)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Wilkinson</text>
-<text transform="matrix(1 0 0 1 538.5977 332.183)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Johnson</text>
-<text transform="matrix(0.8544 -0.5197 0.5197 0.8544 552.0512 271.4304)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Glasc.</text>
-<text transform="matrix(5.261491e-02 -0.9986 0.9986 5.261491e-02 572.2988 416.4257)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Montgo.</text>
-<text transform="matrix(1 0 0 1 379.855 200.5336)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">DeKalb</text>
-<text transform="matrix(1 0 0 1 386.4484 243.0643)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Henry</text>
-<text transform="matrix(1 0 0 1 313.3391 460.2026)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Randolph</text>
-<text transform="matrix(8.884845e-03 -1 1 8.884845e-03 357.6737 430.164)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Webst.</text>
-<text transform="matrix(1 0 0 1 372.6502 265.7354)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Spald.</text>
-<text transform="matrix(1 0 0 1 407.322 263.1018)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Butts</text>
-<text transform="matrix(1 0 0 1 642.5618 557.5605)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Camden</text>
-<text transform="matrix(1 0 0 1 225.3453 67.7095)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Dade</text>
-<text transform="matrix(1 0 0 1 703.08 416.4257)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Chatham</text>
-<text transform="matrix(1 0 0 1 613.3647 214.6985)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Columbia</text>
-<text transform="matrix(1 0 0 1 459.4772 58.1712)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Rabun</text>
-<text transform="matrix(0.7702 0.6378 -0.6378 0.7702 644.0531 444.8967)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Long</text>
-<text transform="matrix(1 0 0 1 351.2335 506.755)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Baker</text>
-<text transform="matrix(1 0 0 1 406.7912 578.5764)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Thomas</text>
-<text transform="matrix(1 0 0 1 306.4467 505.1182)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Early</text>
-<text transform="matrix(1 0 0 1 210.1275 114.4155)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Chattooga</text>
-<text transform="matrix(1 0 0 1 404.653 65.8588)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Union</text>
-<text transform="matrix(0.9984 -5.702250e-02 5.702250e-02 0.9984 498.2377 87.4259)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Stephens</text>
-<text transform="matrix(1 0 0 1 280.1033 40.02)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Catoosa</text>
-<text transform="matrix(1 0 0 1 576.0215 347.9143)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Emanuel</text>
-<text transform="matrix(1 0 0 1 418.6123 524.3367)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Colquitt</text>
-<text transform="matrix(1 0 0 1 251.6479 442.4076)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Quitman</text>
-<text transform="matrix(1 0 0 1 610.082 526.9706)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Brantley</text>
-<text transform="matrix(1 0 0 1 589.8656 564.4831)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Charlton</text>
-<text transform="matrix(1 0 0 1 345.3367 107.6422)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Pickens</text>
-<text transform="matrix(1 0 0 1 519.7523 306.8781)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Washington</text>
-<text transform="matrix(1 0 0 1 482.5963 215.446)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Greene</text>
-<text transform="matrix(-3.525302e-02 -0.9994 0.9994 -3.525302e-02 450.7242 268.3078)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Jasper</text>
-<text transform="matrix(5.850341e-02 -0.9983 0.9983 5.850341e-02 554.5523 252.3719)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Warren</text>
-<text transform="matrix(1 0 0 1 353.5091 243.0644)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Fay.</text>
-<text transform="matrix(1 0 0 1 463.6175 536.01)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Cook</text>
-<text transform="matrix(1 0 0 1 604.3694 373.8602)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Cand.</text>
-<text transform="matrix(0.1964 -0.9805 0.9805 0.1964 314.105 82.7694)" style="font-family:'Tahoma'; font-size:9px;" class="maplabels1">Whitfield</text>
+<text transform="matrix(1 0 0 1 422.8863 129.1746)" style="font-family:'Kermit Extralight Condensed'; font-size:10px;" class="maplabels1">Hall</text>
+<text transform="matrix(1 0 0 1 400.9694 102.6592)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Lump.</text>
+<text transform="matrix(1 0 0 1 390.2783 138.8196)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Fors.</text>
+<text transform="matrix(1 0 0 1 388.2696 119.1732)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Daws.</text>
+<text transform="matrix(0.8021 -0.5972 0.5972 0.8021 351.2328 151.2764)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Cherokee</text>
+<text transform="matrix(1 0 0 1 437.1117 322.8939)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Bibb</text>
+<text transform="matrix(0.3874 -0.9219 0.9219 0.3874 445.6269 378.772)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Houston</text>
+<text transform="matrix(1 0 0 1 457.6382 401.692)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Pulaski</text>
+<text transform="matrix(1 0 0 1 460.9059 252.6738)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Putnam</text>
+<text transform="matrix(0.2213 -0.9752 0.9752 0.2213 441.4544 97.8906)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">White</text>
+<text transform="matrix(1 0 0 1 640.6446 247.5843)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Richmond</text>
+<text transform="matrix(8.277444e-02 -0.9966 0.9966 8.277444e-02 583.8171 305.8197)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Jefferson</text>
+<text transform="matrix(1 0 0 1 589.8654 186.3683)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Lincoln</text>
+<text transform="matrix(-1.975125e-02 -0.9998 0.9998 -1.975125e-02 574.2074 242.9928)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">McDuf.</text>
+<text transform="matrix(1 0 0 1 520.5 156.7571)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Elbert</text>
+<text transform="matrix(1 0 0 1 528.9088 197.4018)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Wilkes</text>
+<text transform="matrix(0.4308 -0.9024 0.9024 0.4308 461.8288 102.659)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Haber.</text>
+<text transform="matrix(0.6463 -0.7631 0.7631 0.6463 406.7919 221.318)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Rockd.</text>
+<text transform="matrix(1 0 0 1 388.6893 179.7485)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Gwinnett</text>
+<text transform="matrix(1 0 0 1 555.0941 371.1904)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Treut.</text>
+<text transform="matrix(1 0 0 1 538.2117 561.351)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Clinch</text>
+<text transform="matrix(0.6438 -0.7652 0.7652 0.6438 485.7985 588.8989)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Lowndes</text>
+<text transform="matrix(1 0 0 1 613.3649 315.4201)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Jenkins</text>
+<text transform="matrix(1 0 0 1 418.3729 485.1158)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Worth</text>
+<text transform="matrix(1 0 0 1 664.4009 514.0511)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Glynn</text>
+<text transform="matrix(0.6438 -0.7652 0.7652 0.6438 678.1838 494.5119)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">McIntosh</text>
+<text transform="matrix(0.6194 -0.7851 0.7851 0.6194 415.3394 310.7217)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Monroe</text>
+<text transform="matrix(0.7951 -0.6065 0.6065 0.7951 498.2375 195.764)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Oglethor.</text>
+<text transform="matrix(0.7484 0.6633 -0.6633 0.7484 456.8115 180.5313)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Oconee</text>
+<text transform="matrix(1 0 0 1 446.3564 565.7642)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Brooks</text>
+<text transform="matrix(1 0 0 1 458.1768 336.7035)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Twiggs</text>
+<text transform="matrix(1 0 0 1 375.157 530.8344)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Mitchell</text>
+<text transform="matrix(1 0 0 1 478.9128 124.7258)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Frank.</text>
+<text transform="matrix(1 0 0 1 367.0694 481.1656)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Dougherty</text>
+<text transform="matrix(0.7299 -0.6835 0.6835 0.7299 544.8451 460.7005)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Jeff Davis</text>
+<text transform="matrix(1 0 0 1 511.7988 434.577)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Telfair</text>
+<text transform="matrix(1 0 0 1 460.9059 430.3776)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Wilcox</text>
+<text transform="matrix(1 0 0 1 421.9497 405.0366)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Dooly</text>
+<text transform="matrix(1 0 0 1 426.4345 51.7205)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Towns</text>
+<text transform="matrix(1 0 0 1 292.9338 357.1826)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Muscogee</text>
+<text transform="matrix(1 0 0 1 344.0083 332.1832)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Talbot</text>
+<text transform="matrix(1 0 0 1 521.4609 223.0623)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Talia.</text>
+<text transform="matrix(1 0 0 1 496.4497 264.3474)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Hancock</text>
+<text transform="matrix(1 0 0 1 489.2163 456.3589)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Ben Hill</text>
+<text transform="matrix(1 0 0 1 432.8409 171.6339)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Barr.</text>
+<text transform="matrix(1 0 0 1 424.7056 198.8967)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Walton</text>
+<text transform="matrix(1 0 0 1 511.1455 122.0919)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Hart</text>
+<text transform="matrix(1 0 0 1 484.9983 154.9774)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Madis.</text>
+<text transform="matrix(1 0 0 1 518.7325 508.9614)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Atkinson</text>
+<text transform="matrix(0.6229 -0.7823 0.7823 0.6229 509.613 552.418)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Lanier</text>
+<text transform="matrix(1 0 0 1 518.2579 587.048)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Echols</text>
+<text transform="matrix(1 0 0 1 484.9985 513.9446)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Berrien</text>
+<text transform="matrix(1 0 0 1 458.1769 489.1377)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Tift</text>
+<text transform="matrix(1 0 0 1 368.457 313.4267)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Upson</text>
+<text transform="matrix(1.272720e-02 -0.9999 0.9999 1.272720e-02 361.0287 389.6499)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Marion</text>
+<text transform="matrix(1 0 0 1 306.4465 416.4261)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Stewart</text>
+<text transform="matrix(1 0 0 1 351.2335 447.1409)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Terrell</text>
+<text transform="matrix(1 0 0 1 390.2784 450.3083)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Lee</text>
+<text transform="matrix(1 0 0 1 414.0487 230.5006)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Newton</text>
+<text transform="matrix(1 0 0 1 451.8995 225.6248)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Morgan</text>
+<text transform="matrix(1 0 0 1 468.903 176.2606)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Clar.</text>
+<text transform="matrix(1 0 0 1 277.9476 388.594)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Chattahoochee</text>
+<text transform="matrix(1 0 0 1 448.3472 123.5511)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Banks</text>
+<text transform="matrix(0.7702 0.6378 -0.6378 0.7702 677.0157 356.8737)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Effingham</text>
+<text transform="matrix(1 0 0 1 662.9872 405.037)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Bryan</text>
+<text transform="matrix(1 0 0 1 481.9375 475.72)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Irwin</text>
+<text transform="matrix(0.6717 0.7408 -0.7408 0.6717 627.3508 391.3703)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Evans</text>
+<text transform="matrix(1 0 0 1 640.6449 378.7716)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Bulloch</text>
+<text transform="matrix(1 0 0 1 491.992 410.5533)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Dodge</text>
+<text transform="matrix(1 0 0 1 532.8323 407.3152)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Whee.</text>
+<text transform="matrix(1 0 0 1 230.2325 197.3306)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Haralson</text>
+<text transform="matrix(1 0 0 1 521.6208 485.1158)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Coffee</text>
+<text transform="matrix(1 0 0 1 607.6794 423.8286)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Tattnall</text>
+<text transform="matrix(1 0 0 1 307.4906 104.9375)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Gordon</text>
+<text transform="matrix(1 0 0 1 351.233 84.6862)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Gilmer</text>
+<text transform="matrix(1 0 0 1 360.6094 51.7202)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Fannin</text>
+<text transform="matrix(1 0 0 1 478.9126 320.2961)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Wilkinson</text>
+<text transform="matrix(1 0 0 1 538.5977 332.183)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Johnson</text>
+<text transform="matrix(0.8544 -0.5197 0.5197 0.8544 552.0512 271.4304)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Glasc.</text>
+<text transform="matrix(5.261491e-02 -0.9986 0.9986 5.261491e-02 572.2988 416.4257)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Montgo.</text>
+<text transform="matrix(1 0 0 1 379.855 200.5336)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">DeKalb</text>
+<text transform="matrix(1 0 0 1 386.4484 243.0643)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Henry</text>
+<text transform="matrix(1 0 0 1 313.3391 460.2026)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Randolph</text>
+<text transform="matrix(0.7574 -0.6529 0.6529 0.7574 346.6737 428.164)" style="font-family:'Franklin Gothic Book'; font-size:8px;" class="maplabels1">Webster</text>
+<text transform="matrix(1 0 0 1 372.6502 265.7354)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Spald.</text>
+<text transform="matrix(1 0 0 1 407.322 263.1018)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Butts</text>
+<text transform="matrix(1 0 0 1 642.5618 557.5605)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Camden</text>
+<text transform="matrix(1 0 0 1 225.3453 67.7095)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Dade</text>
+<text transform="matrix(1 0 0 1 703.08 416.4257)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Chatham</text>
+<text transform="matrix(1 0 0 1 613.3647 214.6985)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Columbia</text>
+<text transform="matrix(1 0 0 1 459.4772 58.1712)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Rabun</text>
+<text transform="matrix(0.7702 0.6378 -0.6378 0.7702 644.0531 444.8967)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Long</text>
+<text transform="matrix(1 0 0 1 351.2335 506.755)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Baker</text>
+<text transform="matrix(1 0 0 1 406.7912 578.5764)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Thomas</text>
+<text transform="matrix(1 0 0 1 306.4467 505.1182)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Early</text>
+<text transform="matrix(1 0 0 1 210.1275 114.4155)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Chattooga</text>
+<text transform="matrix(1 0 0 1 404.653 65.8588)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Union</text>
+<text transform="matrix(0.9984 -5.702250e-02 5.702250e-02 0.9984 498.2377 87.4259)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Stephens</text>
+<text transform="matrix(1 0 0 1 280.1033 40.02)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Catoosa</text>
+<text transform="matrix(1 0 0 1 576.0215 347.9143)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Emanuel</text>
+<text transform="matrix(1 0 0 1 418.6123 524.3367)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Colquitt</text>
+<text transform="matrix(1 0 0 1 277.6479 442.4076)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Quitman</text>
+<text transform="matrix(1 0 0 1 610.082 526.9706)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Brantley</text>
+<text transform="matrix(1 0 0 1 589.8656 564.4831)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Charlton</text>
+<text transform="matrix(1 0 0 1 345.3367 107.6422)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Pickens</text>
+<text transform="matrix(1 0 0 1 519.7523 306.8781)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Washington</text>
+<text transform="matrix(1 0 0 1 482.5963 215.446)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Greene</text>
+<text transform="matrix(-3.525302e-02 -0.9994 0.9994 -3.525302e-02 450.7242 268.3078)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Jasper</text>
+<text transform="matrix(5.850341e-02 -0.9983 0.9983 5.850341e-02 554.5523 252.3719)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Warren</text>
+<text transform="matrix(1 0 0 1 353.5091 243.0644)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Fay.</text>
+<text transform="matrix(1 0 0 1 463.6175 536.01)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Cook</text>
+<text transform="matrix(1 0 0 1 604.3694 373.8602)" style="font-family:'Franklin Gothic Book'; font-size:10px;" class="maplabels1">Cand.</text>
+<text transform="matrix(0.1964 -0.9805 0.9805 0.1964 314.105 82.7694)" style="font-family:'Franklin Gothic Book'; font-size:9px;" class="maplabels1">Whitfield</text>
 </svg>
+
 
 

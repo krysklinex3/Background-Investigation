@@ -549,15 +549,15 @@ document.addEventListener('DOMContentLoaded', async () => {
       const tdCat = document.createElement('td');
       tdCat.textContent = category;
     
-      const tdType = document.createElement('td');
-      tdType.textContent = item.recordType || '';
-    
       const tdLink = document.createElement('td');
       const a = document.createElement('a');
       a.href = item.url;
       a.textContent = item.label;
       a.target = '_blank';
       tdLink.appendChild(a);
+
+      const tdType = document.createElement('td');
+      tdType.textContent = item.recordType || '';
     
       const tdNotes = document.createElement('td');
       tdNotes.textContent = item.notes || '';
@@ -597,6 +597,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 });
 </script>
+
 
 
 

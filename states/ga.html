@@ -549,13 +549,13 @@ document.addEventListener('DOMContentLoaded', async () => {
       const tdCat = document.createElement('td');
       tdCat.textContent = category;
     
-      const tdLink = document.createElement('td');
+      const tdDept = document.createElement('td');
       const a = document.createElement('a');
       a.href = item.url;
       a.textContent = item.label;
       a.target = '_blank';
-      tdLink.appendChild(a);
-
+      tdDept.appendChild(a);
+    
       const tdType = document.createElement('td');
       tdType.textContent = item.recordType || '';
     
@@ -563,8 +563,8 @@ document.addEventListener('DOMContentLoaded', async () => {
       tdNotes.textContent = item.notes || '';
     
       tr.appendChild(tdCat);
+      tr.appendChild(tdDept);
       tr.appendChild(tdType);
-      tr.appendChild(tdLink);
       tr.appendChild(tdNotes);
     
       tbody.appendChild(tr);
@@ -597,6 +597,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 });
 </script>
+
 
 
 

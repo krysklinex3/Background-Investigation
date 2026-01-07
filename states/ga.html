@@ -411,10 +411,6 @@
         tbody.appendChild(tr);
       };
 
-      (county.courtSites || []).forEach(site => addRow('Court', site));
-      (county.otherResources || []).forEach(res => addRow('Other', res));
-    }
-
     // Dropdown still works
     select.addEventListener('change', () => {
       renderCounty(select.value);
@@ -433,3 +429,4 @@
     });
   });
 </script>
+

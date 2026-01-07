@@ -523,74 +523,75 @@
 
 <script>
   // Wait for page + data to load
-  document.addEventListener('DOMContentLoaded', async () => {
-    const response = await fetch('../data/ga-counties.json');
-    const counties = await response.json();
+document.addEventListener('DOMContentLoaded', async () => {
+  const response = await fetch('./data/ga-counties.json');
+  const counties = await response.json();
 
-    const select = document.getElementById('county-select');
-    const heading = document.getElementById('county-name-heading');
-    const tbody = document.querySelector('#county-links-table tbody');
+  const select = document.getElementById('county-select');
+  const heading = document.getElementById('county-name-heading');
+  const tbody = document.querySelector('#county-links-table tbody');
 
-    function renderCounty(fips) {
-      tbody.innerHTML = '';
-      heading.textContent = '';
+  function renderCounty(fips) {
+    tbody.innerHTML = '';
+    heading.textContent = '';
 
-      const key = String(fips).trim();
-      if (!key) return;
+    const key = String(fips).trim();
+    if (!key) return;
 
-      const county = counties.find(c => String(c.fips).trim() === key);
-      if (!county) return;
+    const county = counties.find(c => String(c.fips).trim() === key);
+    if (!county) return;
 
-      heading.textContent = county.name + ' County';
+    heading.textContent = county.name + ' County';
 
-      const addRow = (category, item) => {
-        const tr = document.createElement('tr');
+    const addRow = (category, item) => {
+      const tr = document.createElement('tr');
 
-        const tdCat = document.createElement('td');
-        tdCat.textContent = category;
+      const tdCat = document.createElement('td');
+      tdCat.textContent = category;
 
-        const tdLabel = document.createElement('td');
-        tdLabel.textContent = item.label;
+      const tdLabel = document.createElement('td');
+      tdLabel.textContent = item.label;
 
-        const tdUrl = document.createElement('td');
-        const a = document.createElement('a');
-        a.href = item.url;
-        a.textContent = item.url;
-        a.target = '_blank';
-        tdUrl.appendChild(a);
+      const tdUrl = document.createElement('td');
+      const a = document.createElement('a');
+      a.href = item.url;
+      a.textContent = item.url;
+      a.target = '_blank';
+      tdUrl.appendChild(a);
 
-        const tdNotes = document.createElement('td');
-        tdNotes.textContent = item.notes || '';
+      const tdNotes = document.createElement('td');
+      tdNotes.textContent = item.notes || '';
 
-        tr.appendChild(tdCat);
-        tr.appendChild(tdLabel);
-        tr.appendChild(tdUrl);
-        tr.appendChild(tdNotes);
-        tbody.appendChild(tr);
-      };
-      
-      (county.courtSites || []).forEach(site => addRow('Court', site));
-      (county.otherResources || []).forEach(res => addRow('Other', res));
-    }
-    
-    // Dropdown still works
-    select.addEventListener('change', () => {
-      renderCounty(select.value);
-    });
+      tr.appendChild(tdCat);
+      tr.appendChild(tdLabel);
+      tr.appendChild(tdUrl);
+      tr.appendChild(tdNotes);
+      tbody.appendChild(tr);
+    };
 
-    // INLINE SVG - direct access (MUCH SIMPLER)
-    document.querySelectorAll('#ga-map path[data-fips]').forEach(path => {
-      path.style.cursor = 'pointer';
+    (county.courtSites || []).forEach(site => addRow('Court', site));
+    (county.otherResources || []).forEach(res => addRow('Other', res));
+  }
 
-      path.addEventListener('click', () => {
-        const fips = String(path.getAttribute('data-fips')).trim();
+  // Dropdown works
+  select.addEventListener('change', () => {
+    renderCounty(select.value);
+  });
 
-        // set dropdown to match clicked county
-        select.value = fips;
+  // Map clicks drive dropdown + table
+  document.querySelectorAll('#ga-map path[data-fips]').forEach(path => {
+    path.style.cursor = 'pointer';
 
-        // trigger the same logic as manually changing the dropdown
-        select.dispatchEvent(new Event('change'));
-      });
+    path.addEventListener('click', () => {
+      const fips = String(path.getAttribute('data-fips')).trim();
+
+      // set dropdown to match clicked county
+      select.value = fips;
+
+      // run same logic as manually changing the dropdown
+      select.dispatchEvent(new Event('change'));
     });
   });
+});
 </script>
+

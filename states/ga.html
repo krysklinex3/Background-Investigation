@@ -512,6 +512,7 @@
       <tr>
         <th>Category</th>
         <th>Department</th>
+        <th>Record Type</th>
         <th>Notes</th>
       </tr>
     </thead>
@@ -544,23 +545,28 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const addRow = (category, item) => {
       const tr = document.createElement('tr');
-
+    
       const tdCat = document.createElement('td');
       tdCat.textContent = category;
-
+    
+      const tdType = document.createElement('td');
+      tdType.textContent = item.recordType || '';
+    
       const tdLink = document.createElement('td');
       const a = document.createElement('a');
       a.href = item.url;
-      a.textContent = item.label;   // label becomes the clickable text
+      a.textContent = item.label;
       a.target = '_blank';
       tdLink.appendChild(a);
-
+    
       const tdNotes = document.createElement('td');
       tdNotes.textContent = item.notes || '';
-
+    
       tr.appendChild(tdCat);
+      tr.appendChild(tdType);
       tr.appendChild(tdLink);
       tr.appendChild(tdNotes);
+    
       tbody.appendChild(tr);
     };
 
@@ -591,5 +597,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 });
 </script>
+
 
 

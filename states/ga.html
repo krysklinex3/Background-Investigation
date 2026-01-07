@@ -524,7 +524,6 @@
   // Wait for page + data to load
 document.addEventListener('DOMContentLoaded', async () => {
   const response = await fetch('../data/ga-counties.json');
-    console.log('JSON status:', response.status, response.url);
   const counties = await response.json();
 
   const select = document.getElementById('county-select');
@@ -562,6 +561,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       tr.appendChild(tdCat);
       tr.appendChild(tdLink);
       tr.appendChild(tdNotes);
+      tbody.appendChild(tr);
     };
 
     (county.courtSites || []).forEach(site => addRow('Court', site));
@@ -591,9 +591,5 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 });
 </script>
-
-
-
-
 
 

@@ -1142,8 +1142,7 @@
     ],
     "otherResources": [
       {
-        "category": "Property Records",
-        "label": "Fulton Property Records",
+        "label": "Fulton County Board of Assessors",
         "url": "https://qpublic.schneidercorp.com/Application.aspx?App=FultonCountyGA&Layer=Parcels&PageType=Search",
         "notes": "Can search by owner name."
       }

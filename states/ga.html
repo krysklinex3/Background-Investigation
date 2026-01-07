@@ -378,9 +378,10 @@
       tbody.innerHTML = '';
       heading.textContent = '';
 
-      if (!fips) return;
+      const key = String(fips).trim();
+      if (!key) return;
 
-      const county = counties.find(c => String(c.fips) === String(fips).trim());
+      const county = counties.find(c => String(c.fips).trim() === key);
       if (!county) return;
 
       heading.textContent = county.name + ' County';
@@ -423,15 +424,16 @@
     // INLINE SVG - direct access (MUCH SIMPLER)
     document.querySelectorAll('#ga-map path[data-fips]').forEach(path => {
       path.style.cursor = 'pointer';
-      path.style.transition = 'fill 0.2s';
-      
+
       path.addEventListener('click', () => {
-        const fips = path.getAttribute('data-fips');
-        renderCounty(fips);
+        const fips = String(path.getAttribute('data-fips')).trim();
+
+        // set dropdown to match clicked county
         select.value = fips;
+
+        // trigger the same logic as manually changing the dropdown
+        select.dispatchEvent(new Event('change'));
       });
     });
   });
 </script>
-
-

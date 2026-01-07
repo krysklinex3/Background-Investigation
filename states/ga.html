@@ -425,18 +425,6 @@
       path.style.cursor = 'pointer';
       path.style.transition = 'fill 0.2s';
       
-      path.addEventListener('mouseenter', () => {
-        path.style.fill = 'transparent';
-        path.style.stroke = 'lime';
-        path.style.strokeWidth = '2';
-      });
-      
-      path.addEventListener('mouseleave', () => {
-        path.style.fill = 'transparent';
-        path.style.stroke = 'red';
-        path.style.strokeWidth = '1';
-      });
-      
       path.addEventListener('click', () => {
         const fips = path.getAttribute('data-fips');
         renderCounty(fips);
@@ -445,3 +433,4 @@
     });
   });
 </script>
+

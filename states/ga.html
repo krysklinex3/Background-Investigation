@@ -524,7 +524,7 @@
 <script>
   // Wait for page + data to load
 document.addEventListener('DOMContentLoaded', async () => {
-  const response = await fetch('./data/ga-counties.json');
+  const response = await fetch('../data/ga-counties.json');
   const counties = await response.json();
 
   const select = document.getElementById('county-select');
@@ -579,19 +579,20 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 
   // Map clicks drive dropdown + table
-  document.querySelectorAll('#ga-map path[data-fips]').forEach(path => {
+  document.querySelectorAll('#ga-map path').forEach(path => {
     path.style.cursor = 'pointer';
 
     path.addEventListener('click', () => {
-      const fips = String(path.getAttribute('data-fips')).trim();
+      const fips = String(path.getAttribute('data-fips') || '').trim();
 
-      // set dropdown to match clicked county
+      if (!fips) {
+        console.log('Clicked a path with NO data-fips yet');
+        return;
+      }
+
       select.value = fips;
-
-      // run same logic as manually changing the dropdown
       select.dispatchEvent(new Event('change'));
     });
   });
 });
 </script>
-

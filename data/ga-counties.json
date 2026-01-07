@@ -6,6 +6,7 @@
       {
         "label": "Appling County Court Records",
         "url": "",
+        "recordType": "",
         "notes": ""
       }
     ],
@@ -1127,16 +1128,19 @@
       {
         "label": "Fulton County Magistrate, State and Superior Court",
         "url": "https://portal-gafulton.tylertech.cloud/Portal/",
+        "recordType": "Civil, Criminal and Traffic",
         "notes": ""
       },
       {
         "label": "Fulton County State Court - Traffic",
         "url": "https://fultoncountygastatecourttraffic.municipalonlinepayments.com/fultoncountygastatecourttraffic/court/search",
+        "recordType": "Traffic",
         "notes": "This is an online payment website for violations."
            },
       {
         "label": "Fulton County State Court - Criminal",
         "url": "https://fultoncountygastatecourtcriminal.municipalonlinepayments.com/fultoncountygastatecourtcriminal/court/search",
+        "recordType": "Criminal",
         "notes": "This is an online payment website for violations."
       }
     ],
@@ -1144,6 +1148,7 @@
       {
         "label": "Fulton County Board of Assessors",
         "url": "https://qpublic.schneidercorp.com/Application.aspx?App=FultonCountyGA&Layer=Parcels&PageType=Search",
+        "recordType": "Property Records"
         "notes": "Can search by owner name."
       }
     ]

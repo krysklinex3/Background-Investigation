@@ -7,7 +7,7 @@
         "label": "Appling County Court Records",
         "url": "",
         "notes": ""
-      },
+      }
     ],
     "otherResources": [
       {
@@ -18,33 +18,801 @@
       }
     ]
   },
-  
   {
-    "fips": "13121",
-    "name": "Fulton",
+    "fips": "13003",
+    "name": "Atkinson",
     "courtSites": [
       {
-        "label": "Fulton County Magistrate, State and Superior Court",
-        "url": "https://portal-gafulton.tylertech.cloud/Portal/",
+        "label": "Atkinson County Court Records",
+        "url": "",
         "notes": ""
-      },
-      {
-        "label": "Fulton County State Court - Traffic",
-        "url": "https://fultoncountygastatecourttraffic.municipalonlinepayments.com/fultoncountygastatecourttraffic/court/search",
-        "notes": "This is an online payment website for violations."
-           },
-      {
-        "label": "Fulton County State Court - Criminal",
-        "url": "https://fultoncountygastatecourtcriminal.municipalonlinepayments.com/fultoncountygastatecourtcriminal/court/search",
-        "notes": "This is an online payment website for violations."
       }
     ],
     "otherResources": [
       {
         "category": "Property Records",
-        "label": "Fulton Property Records",
-        "url": "https://qpublic.schneidercorp.com/Application.aspx?App=FultonCountyGA&Layer=Parcels&PageType=Search",
-        "notes": "Can search by owner name."
+        "label": "Atkinson Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13005",
+    "name": "Bacon",
+    "courtSites": [
+      {
+        "label": "Bacon County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Bacon Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13007",
+    "name": "Baker",
+    "courtSites": [
+      {
+        "label": "Baker County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Baker Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13009",
+    "name": "Baldwin",
+    "courtSites": [
+      {
+        "label": "Baldwin County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Baldwin Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13011",
+    "name": "Banks",
+    "courtSites": [
+      {
+        "label": "Banks County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Banks Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13013",
+    "name": "Barrow",
+    "courtSites": [
+      {
+        "label": "Barrow County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Barrow Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13015",
+    "name": "Bartow",
+    "courtSites": [
+      {
+        "label": "Bartow County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Bartow Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13017",
+    "name": "Ben Hill",
+    "courtSites": [
+      {
+        "label": "Ben Hill County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Ben Hill Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13019",
+    "name": "Berrien",
+    "courtSites": [
+      {
+        "label": "Berrien County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Berrien Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13021",
+    "name": "Bibb",
+    "courtSites": [
+      {
+        "label": "Bibb County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Bibb Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13023",
+    "name": "Bleckley",
+    "courtSites": [
+      {
+        "label": "Bleckley County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Bleckley Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13025",
+    "name": "Brantley",
+    "courtSites": [
+      {
+        "label": "Brantley County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Brantley Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13027",
+    "name": "Brooks",
+    "courtSites": [
+      {
+        "label": "Brooks County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Brooks Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13029",
+    "name": "Bryan",
+    "courtSites": [
+      {
+        "label": "Bryan County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Bryan Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13031",
+    "name": "Bulloch",
+    "courtSites": [
+      {
+        "label": "Bulloch County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Bulloch Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13033",
+    "name": "Burke",
+    "courtSites": [
+      {
+        "label": "Burke County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Burke Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13035",
+    "name": "Butts",
+    "courtSites": [
+      {
+        "label": "Butts County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Butts Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13037",
+    "name": "Calhoun",
+    "courtSites": [
+      {
+        "label": "Calhoun County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Calhoun Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13039",
+    "name": "Camden",
+    "courtSites": [
+      {
+        "label": "Camden County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Camden Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13043",
+    "name": "Candler",
+    "courtSites": [
+      {
+        "label": "Candler County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Candler Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13045",
+    "name": "Carroll",
+    "courtSites": [
+      {
+        "label": "Carroll County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Carroll Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13047",
+    "name": "Catoosa",
+    "courtSites": [
+      {
+        "label": "Catoosa County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Catoosa Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13049",
+    "name": "Charlton",
+    "courtSites": [
+      {
+        "label": "Charlton County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Charlton Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13051",
+    "name": "Chatham",
+    "courtSites": [
+      {
+        "label": "Chatham County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Chatham Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13053",
+    "name": "Chattahoochee",
+    "courtSites": [
+      {
+        "label": "Chattahoochee County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Chattahoochee Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13055",
+    "name": "Chattooga",
+    "courtSites": [
+      {
+        "label": "Chattooga County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Chattooga Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13057",
+    "name": "Cherokee",
+    "courtSites": [
+      {
+        "label": "Cherokee County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Cherokee Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13059",
+    "name": "Clarke",
+    "courtSites": [
+      {
+        "label": "Clarke County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Clarke Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13061",
+    "name": "Clay",
+    "courtSites": [
+      {
+        "label": "Clay County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Clay Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13063",
+    "name": "Clayton",
+    "courtSites": [
+      {
+        "label": "Clayton County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Clayton Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13065",
+    "name": "Clinch",
+    "courtSites": [
+      {
+        "label": "Clinch County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Clinch Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13067",
+    "name": "Cobb",
+    "courtSites": [
+      {
+        "label": "Cobb County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Cobb Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13069",
+    "name": "Coffee",
+    "courtSites": [
+      {
+        "label": "Coffee County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Coffee Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13071",
+    "name": "Colquitt",
+    "courtSites": [
+      {
+        "label": "Colquitt County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Colquitt Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13073",
+    "name": "Columbia",
+    "courtSites": [
+      {
+        "label": "Columbia County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Columbia Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13075",
+    "name": "Cook",
+    "courtSites": [
+      {
+        "label": "Cook County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Cook Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13077",
+    "name": "Coweta",
+    "courtSites": [
+      {
+        "label": "Coweta County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Coweta Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13079",
+    "name": "Crawford",
+    "courtSites": [
+      {
+        "label": "Crawford County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Crawford Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13081",
+    "name": "Crisp",
+    "courtSites": [
+      {
+        "label": "Crisp County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Crisp Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13083",
+    "name": "Dade",
+    "courtSites": [
+      {
+        "label": "Dade County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Dade Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13085",
+    "name": "Dawson",
+    "courtSites": [
+      {
+        "label": "Dawson County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Dawson Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13087",
+    "name": "Decatur",
+    "courtSites": [
+      {
+        "label": "Decatur County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Decatur Property Records",
+        "url": "",
+        "notes": ""
       }
     ]
   },
@@ -53,21 +821,1940 @@
     "name": "DeKalb",
     "courtSites": [
       {
-        "label": "DeKalb Superior Court",
-        "url": "https://example.com/dekalb-superior",
+        "label": "DeKalb County Court Records",
+        "url": "",
         "notes": ""
       }
     ],
     "otherResources": [
       {
+        "category": "Property Records",
         "label": "DeKalb Property Records",
-        "url": "https://example.com/dekalb-property",
+        "url": "",
         "notes": ""
       }
     ]
   },
-
-    {
+  {
+    "fips": "13091",
+    "name": "Dodge",
+    "courtSites": [
+      {
+        "label": "Dodge County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Dodge Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13093",
+    "name": "Dooly",
+    "courtSites": [
+      {
+        "label": "Dooly County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Dooly Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13095",
+    "name": "Dougherty",
+    "courtSites": [
+      {
+        "label": "Dougherty County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Dougherty Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13097",
+    "name": "Douglas",
+    "courtSites": [
+      {
+        "label": "Douglas County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Douglas Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13099",
+    "name": "Early",
+    "courtSites": [
+      {
+        "label": "Early County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Early Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13101",
+    "name": "Echols",
+    "courtSites": [
+      {
+        "label": "Echols County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Echols Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13103",
+    "name": "Effingham",
+    "courtSites": [
+      {
+        "label": "Effingham County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Effingham Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13105",
+    "name": "Elbert",
+    "courtSites": [
+      {
+        "label": "Elbert County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Elbert Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13107",
+    "name": "Emanuel",
+    "courtSites": [
+      {
+        "label": "Emanuel County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Emanuel Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13109",
+    "name": "Evans",
+    "courtSites": [
+      {
+        "label": "Evans County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Evans Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13111",
+    "name": "Fannin",
+    "courtSites": [
+      {
+        "label": "Fannin County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Fannin Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13113",
+    "name": "Fayette",
+    "courtSites": [
+      {
+        "label": "Fayette County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Fayette Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13115",
+    "name": "Floyd",
+    "courtSites": [
+      {
+        "label": "Floyd County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Floyd Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13117",
+    "name": "Forsyth",
+    "courtSites": [
+      {
+        "label": "Forsyth County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Forsyth Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13119",
+    "name": "Franklin",
+    "courtSites": [
+      {
+        "label": "Franklin County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Franklin Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13121",
+    "name": "Fulton",
+    "courtSites": [
+      {
+        "label": "Fulton County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Fulton Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13123",
+    "name": "Gilmer",
+    "courtSites": [
+      {
+        "label": "Gilmer County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Gilmer Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13125",
+    "name": "Glascock",
+    "courtSites": [
+      {
+        "label": "Glascock County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Glascock Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13127",
+    "name": "Glynn",
+    "courtSites": [
+      {
+        "label": "Glynn County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Glynn Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13129",
+    "name": "Gordon",
+    "courtSites": [
+      {
+        "label": "Gordon County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Gordon Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13131",
+    "name": "Grady",
+    "courtSites": [
+      {
+        "label": "Grady County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Grady Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13133",
+    "name": "Greene",
+    "courtSites": [
+      {
+        "label": "Greene County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Greene Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13135",
+    "name": "Gwinnett",
+    "courtSites": [
+      {
+        "label": "Gwinnett County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Gwinnett Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13137",
+    "name": "Habersham",
+    "courtSites": [
+      {
+        "label": "Habersham County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Habersham Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13139",
+    "name": "Hall",
+    "courtSites": [
+      {
+        "label": "Hall County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Hall Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13141",
+    "name": "Hancock",
+    "courtSites": [
+      {
+        "label": "Hancock County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Hancock Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13143",
+    "name": "Haralson",
+    "courtSites": [
+      {
+        "label": "Haralson County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Haralson Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13145",
+    "name": "Harris",
+    "courtSites": [
+      {
+        "label": "Harris County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Harris Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13147",
+    "name": "Hart",
+    "courtSites": [
+      {
+        "label": "Hart County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Hart Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13149",
+    "name": "Heard",
+    "courtSites": [
+      {
+        "label": "Heard County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Heard Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13151",
+    "name": "Henry",
+    "courtSites": [
+      {
+        "label": "Henry County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Henry Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13153",
+    "name": "Houston",
+    "courtSites": [
+      {
+        "label": "Houston County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Houston Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13155",
+    "name": "Irwin",
+    "courtSites": [
+      {
+        "label": "Irwin County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Irwin Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13157",
+    "name": "Jackson",
+    "courtSites": [
+      {
+        "label": "Jackson County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Jackson Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13159",
+    "name": "Jasper",
+    "courtSites": [
+      {
+        "label": "Jasper County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Jasper Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13161",
+    "name": "Jeff Davis",
+    "courtSites": [
+      {
+        "label": "Jeff Davis County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Jeff Davis Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13163",
+    "name": "Jefferson",
+    "courtSites": [
+      {
+        "label": "Jefferson County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Jefferson Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13165",
+    "name": "Jenkins",
+    "courtSites": [
+      {
+        "label": "Jenkins County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Jenkins Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13167",
+    "name": "Johnson",
+    "courtSites": [
+      {
+        "label": "Johnson County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Johnson Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13169",
+    "name": "Jones",
+    "courtSites": [
+      {
+        "label": "Jones County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Jones Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13171",
+    "name": "Lamar",
+    "courtSites": [
+      {
+        "label": "Lamar County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Lamar Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13173",
+    "name": "Lanier",
+    "courtSites": [
+      {
+        "label": "Lanier County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Lanier Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13175",
+    "name": "Laurens",
+    "courtSites": [
+      {
+        "label": "Laurens County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Laurens Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13177",
+    "name": "Lee",
+    "courtSites": [
+      {
+        "label": "Lee County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Lee Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13179",
+    "name": "Liberty",
+    "courtSites": [
+      {
+        "label": "Liberty County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Liberty Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13181",
+    "name": "Lincoln",
+    "courtSites": [
+      {
+        "label": "Lincoln County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Lincoln Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13183",
+    "name": "Long",
+    "courtSites": [
+      {
+        "label": "Long County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Long Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13185",
+    "name": "Lowndes",
+    "courtSites": [
+      {
+        "label": "Lowndes County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Lowndes Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13187",
+    "name": "Lumpkin",
+    "courtSites": [
+      {
+        "label": "Lumpkin County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Lumpkin Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13193",
+    "name": "Macon",
+    "courtSites": [
+      {
+        "label": "Macon County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Macon Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13195",
+    "name": "Madison",
+    "courtSites": [
+      {
+        "label": "Madison County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Madison Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13197",
+    "name": "Marion",
+    "courtSites": [
+      {
+        "label": "Marion County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Marion Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13189",
+    "name": "McDuffie",
+    "courtSites": [
+      {
+        "label": "McDuffie County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "McDuffie Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13191",
+    "name": "McIntosh",
+    "courtSites": [
+      {
+        "label": "McIntosh County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "McIntosh Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13199",
+    "name": "Meriwether",
+    "courtSites": [
+      {
+        "label": "Meriwether County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Meriwether Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13201",
+    "name": "Miller",
+    "courtSites": [
+      {
+        "label": "Miller County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Miller Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13205",
+    "name": "Mitchell",
+    "courtSites": [
+      {
+        "label": "Mitchell County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Mitchell Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13207",
+    "name": "Monroe",
+    "courtSites": [
+      {
+        "label": "Monroe County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Monroe Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13209",
+    "name": "Montgomery",
+    "courtSites": [
+      {
+        "label": "Montgomery County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Montgomery Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13211",
+    "name": "Morgan",
+    "courtSites": [
+      {
+        "label": "Morgan County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Morgan Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13213",
+    "name": "Murray",
+    "courtSites": [
+      {
+        "label": "Murray County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Murray Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13215",
+    "name": "Muscogee",
+    "courtSites": [
+      {
+        "label": "Muscogee County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Muscogee Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13217",
+    "name": "Newton",
+    "courtSites": [
+      {
+        "label": "Newton County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Newton Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13219",
+    "name": "Oconee",
+    "courtSites": [
+      {
+        "label": "Oconee County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Oconee Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13221",
+    "name": "Oglethorpe",
+    "courtSites": [
+      {
+        "label": "Oglethorpe County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Oglethorpe Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13223",
+    "name": "Paulding",
+    "courtSites": [
+      {
+        "label": "Paulding County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Paulding Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13225",
+    "name": "Peach",
+    "courtSites": [
+      {
+        "label": "Peach County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Peach Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13227",
+    "name": "Pickens",
+    "courtSites": [
+      {
+        "label": "Pickens County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Pickens Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13229",
+    "name": "Pierce",
+    "courtSites": [
+      {
+        "label": "Pierce County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Pierce Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13231",
+    "name": "Pike",
+    "courtSites": [
+      {
+        "label": "Pike County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Pike Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13233",
+    "name": "Polk",
+    "courtSites": [
+      {
+        "label": "Polk County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Polk Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13235",
+    "name": "Pulaski",
+    "courtSites": [
+      {
+        "label": "Pulaski County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Pulaski Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13237",
+    "name": "Putnam",
+    "courtSites": [
+      {
+        "label": "Putnam County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Putnam Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13239",
+    "name": "Quitman",
+    "courtSites": [
+      {
+        "label": "Quitman County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Quitman Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13241",
+    "name": "Rabun",
+    "courtSites": [
+      {
+        "label": "Rabun County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Rabun Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13243",
+    "name": "Randolph",
+    "courtSites": [
+      {
+        "label": "Randolph County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Randolph Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13245",
+    "name": "Richmond",
+    "courtSites": [
+      {
+        "label": "Richmond County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Richmond Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13247",
+    "name": "Rockdale",
+    "courtSites": [
+      {
+        "label": "Rockdale County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Rockdale Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13249",
+    "name": "Schley",
+    "courtSites": [
+      {
+        "label": "Schley County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Schley Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13251",
+    "name": "Screven",
+    "courtSites": [
+      {
+        "label": "Screven County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Screven Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13253",
+    "name": "Seminole",
+    "courtSites": [
+      {
+        "label": "Seminole County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Seminole Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13255",
+    "name": "Spalding",
+    "courtSites": [
+      {
+        "label": "Spalding County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Spalding Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13257",
+    "name": "Stephens",
+    "courtSites": [
+      {
+        "label": "Stephens County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Stephens Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13259",
+    "name": "Stewart",
+    "courtSites": [
+      {
+        "label": "Stewart County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Stewart Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13261",
+    "name": "Sumter",
+    "courtSites": [
+      {
+        "label": "Sumter County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Sumter Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13263",
+    "name": "Talbot",
+    "courtSites": [
+      {
+        "label": "Talbot County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Talbot Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13265",
+    "name": "Taliaferro",
+    "courtSites": [
+      {
+        "label": "Taliaferro County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Taliaferro Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13267",
+    "name": "Tattnall",
+    "courtSites": [
+      {
+        "label": "Tattnall County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Tattnall Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13269",
+    "name": "Taylor",
+    "courtSites": [
+      {
+        "label": "Taylor County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Taylor Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13271",
+    "name": "Telfair",
+    "courtSites": [
+      {
+        "label": "Telfair County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Telfair Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13273",
+    "name": "Terrell",
+    "courtSites": [
+      {
+        "label": "Terrell County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Terrell Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13275",
+    "name": "Thomas",
+    "courtSites": [
+      {
+        "label": "Thomas County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Thomas Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13277",
+    "name": "Tift",
+    "courtSites": [
+      {
+        "label": "Tift County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Tift Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13279",
+    "name": "Toombs",
+    "courtSites": [
+      {
+        "label": "Toombs County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Toombs Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13281",
+    "name": "Towns",
+    "courtSites": [
+      {
+        "label": "Towns County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Towns Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13283",
+    "name": "Treutlen",
+    "courtSites": [
+      {
+        "label": "Treutlen County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Treutlen Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13285",
+    "name": "Troup",
+    "courtSites": [
+      {
+        "label": "Troup County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Troup Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13287",
+    "name": "Turner",
+    "courtSites": [
+      {
+        "label": "Turner County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Turner Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13289",
+    "name": "Twiggs",
+    "courtSites": [
+      {
+        "label": "Twiggs County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Twiggs Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13291",
+    "name": "Union",
+    "courtSites": [
+      {
+        "label": "Union County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Union Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13293",
+    "name": "Upson",
+    "courtSites": [
+      {
+        "label": "Upson County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Upson Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
     "fips": "13295",
     "name": "Walker",
     "courtSites": [
@@ -75,7 +2762,7 @@
         "label": "Walker County Court Records",
         "url": "",
         "notes": ""
-      },
+      }
     ],
     "otherResources": [
       {
@@ -86,5 +2773,251 @@
       }
     ]
   },
-  
+  {
+    "fips": "13297",
+    "name": "Walton",
+    "courtSites": [
+      {
+        "label": "Walton County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Walton Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13299",
+    "name": "Ware",
+    "courtSites": [
+      {
+        "label": "Ware County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Ware Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13301",
+    "name": "Warren",
+    "courtSites": [
+      {
+        "label": "Warren County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Warren Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13303",
+    "name": "Washington",
+    "courtSites": [
+      {
+        "label": "Washington County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Washington Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13305",
+    "name": "Wayne",
+    "courtSites": [
+      {
+        "label": "Wayne County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Wayne Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13307",
+    "name": "Webster",
+    "courtSites": [
+      {
+        "label": "Webster County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Webster Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13309",
+    "name": "Wheeler",
+    "courtSites": [
+      {
+        "label": "Wheeler County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Wheeler Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13311",
+    "name": "White",
+    "courtSites": [
+      {
+        "label": "White County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "White Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13313",
+    "name": "Whitfield",
+    "courtSites": [
+      {
+        "label": "Whitfield County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Whitfield Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13315",
+    "name": "Wilcox",
+    "courtSites": [
+      {
+        "label": "Wilcox County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Wilcox Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13317",
+    "name": "Wilkes",
+    "courtSites": [
+      {
+        "label": "Wilkes County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Wilkes Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13319",
+    "name": "Wilkinson",
+    "courtSites": [
+      {
+        "label": "Wilkinson County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Wilkinson Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "fips": "13321",
+    "name": "Worth",
+    "courtSites": [
+      {
+        "label": "Worth County Court Records",
+        "url": "",
+        "notes": ""
+      }
+    ],
+    "otherResources": [
+      {
+        "category": "Property Records",
+        "label": "Worth Property Records",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  }
 ]

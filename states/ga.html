@@ -9,12 +9,15 @@
   <!-- GEORGIA COUNTY MAP - clickable -->
 
 <div id="ga-map-container" style="max-width: 1000px; width: 100%; height: 1000px; max-height: 80vh; overflow: hidden; position: relative; margin: 20px auto">
-  <!-- FULL MAP -->
- <img src="../assets/GA-counties.svg" style="width: 100%; height: 100%; object-fit: contain; position: absolute; top: 0; left: 0; z-index: 1;">
+   <!-- FULL MAP -->
+<img src="./assets/GA-counties.svg" style="width:100%; height:100%; object-fit:contain; position:absolute; inset:0; z-index:1;">
   
   <!-- BLACK OUTLINE CLICK AREAS (for alignment testing) -->
-  <svg id="ga-map" style="width: 100%; height: 100%; object-fit: contain; position: absolute; top: 0; left: 0; z-index: 1; pointer-events: none; preserveAspectRatio="xMidYMid meet"">
-    <g style="pointer-events: all;">
+  <svg id="ga-map"
+     viewBox="0 0 1000 1000"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%; height:100%; position:absolute; inset:0; z-index:2; pointer-events:none;">
+  <g style="pointer-events:all;">
       <path data-fips="10000" d="M 293.7849 68.5119 L 301.0163 68.5119 L 303.0546 68.5119 L 302.909 83.5247 L 308.7815 83.5894 L 308.733 92.7135 L 314.0715 93.6841 L 311.7905 99.0551 L 322.8559 99.2492 L 322.8074 110.5088 L 321.8853 110.5088 L 321.0117 114.5208 L 320.7205 114.5208 L 317.3718 114.4561 L 292.5231 113.9384 L 277.9147 113.8737 L 277.4779 110.8971 L 277.3323 109.797 L 281.4576 104.5555 L 281.5062 101.1905 L 285.3888 94.3312 L 285.4858 85.9189 L 287.1359 81.001 L 293.7849 68.5119 Z" fill="transparent" stroke="black"/>
       <path data-fips="10001" d="M 380.4156 393.9393 L 404.2937 394.8452 L 404.4878 386.6271 L 409.0499 386.8212 L 409.0013 391.7392 L 413.8546 391.0273 L 419.3388 393.3569 L 419.1932 395.7512 L 422.9787 402.0928 L 423.9494 407.9167 L 425.7936 409.5345 L 429.3365 419.1116 L 429.5792 423.4471 L 421.0374 423.0589 L 389.2971 422.7353 L 389.2486 427.6533 L 379.3964 417.6879 L 379.0567 416.8467 L 379.2994 408.2402 L 380.1244 408.2402 L 380.3186 397.6278 L 380.3671 394.9747 L 380.4156 393.9393 Z" fill="transparent" stroke="black"/>
       <path data-fips="10002" d="M 687.2874 436.0009 L 687.4815 437.9422 L 694.7129 441.6307 L 694.4702 443.7661 L 689.3743 450.2371 L 683.3562 448.6841 L 671.6114 451.0137 L 666.0301 444.4779 L 651.2277 437.2304 L 651.0335 434.9008 L 646.6171 432.2477 L 638.9489 424.9355 L 640.7446 417.8174 L 640.1622 413.5465 L 635.9399 413.0935 L 632.8823 408.8874 L 634.2898 408.305 L 638.8518 405.0047 L 640.0166 403.6458 L 642.9286 400.0868 L 645.4523 400.1515 L 650.6453 404.4223 L 654.2367 408.8874 L 655.4015 413.4171 L 662.3416 414.6466 L 666.7096 412.77 L 668.0199 415.5525 L 673.4556 416.0702 L 676.6102 427.0062 L 679.959 429.7887 L 681.3664 428.1063 L 683.3077 433.6066 L 686.5594 433.0242 L 687.2874 436.0009 Z M 701.1192 444.3485 L 701.6045 451.7255 L 699.6632 456.5787 L 697.2366 458.5848 L 697.8675 455.1551 L 696.6057 451.0137 L 699.3235 443.7014 L 701.1192 444.3485 Z" fill="transparent" stroke="black"/>
@@ -441,3 +444,4 @@
     });
   });
 </script>
+

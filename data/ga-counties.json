@@ -4,18 +4,18 @@
     "name": "Appling",
     "courtSites": [
       {
-        "label": "Appling County Court Records",
-        "url": "",
-        "recordType": "",
+        "label": "PeachCourt - Appling County State & Superior",
+        "url": "https://peachcourt.com/",
+        "recordType": "Criminal, Traffic and Civil",
         "notes": ""
       }
     ],
     "otherResources": [
       {
-        "category": "Property Records",
         "label": "Appling Property Records",
-        "url": "",
-        "notes": ""
+        "url": "https://qpublic.schneidercorp.com/Application.aspx?App=ApplingCountyGA&Layer=Parcels&PageType=Search",
+        "recordType": "Property Records",
+        "notes": "Can search by owner name."
       }
     ]
   },
@@ -24,17 +24,18 @@
     "name": "Atkinson",
     "courtSites": [
       {
-        "label": "Atkinson County Court Records",
-        "url": "",
+        "label": "PeachCourt - Atkinson Superior Court",
+        "url": "https://peachcourt.com/",
+        "recordType": "Civil",        
         "notes": ""
       }
     ],
     "otherResources": [
       {
-        "category": "Property Records",
-        "label": "Atkinson Property Records",
-        "url": "",
-        "notes": ""
+        "label": "Arkinson County Tax Assessor's Office",
+        "url": "https://www.qpublic.net/ga/atkinson/search.html",
+        "recordType": "Property Records",        
+        "notes": "Can search by owner name."
       }
     ]
   },

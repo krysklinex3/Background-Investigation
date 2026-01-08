@@ -528,7 +528,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const tbody = document.querySelector('#county-links-table tbody');
 
   const statewideLinks = [
-    { label: "GeorgiaGov ", url: "https://georgia.gov/georgia-felon-search", recordType: "Felonies", notes: "Georgia Felon Search does not return sealed or expunged information, juvenile felony history information, or misdemeanor records. <br> $15 for each transaction or rap sheet viewed." },
+    { label: "GeorgiaGov ", url: "https://georgia.gov/georgia-felon-search", recordType: "Felonies", notes: "Georgia Felon Search does not return sealed or expunged information, juvenile felony history information, or misdemeanor records. \n$15 for each transaction or rap sheet viewed." },
     { label: "GA Secretary of State – Business Search", url: "https://ecorp.sos.ga.gov/BusinessSearch", recordType: "Business", notes: "" },
     { label: "GA DOC Offender Search", url: "https://services.gdc.ga.gov/GDC/", recordType: "Incarceration", notes: "" }
   ];
@@ -609,5 +609,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   renderStatewide();
 });
 </script>
+
 
 

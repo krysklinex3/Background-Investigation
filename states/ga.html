@@ -343,7 +343,7 @@
 
   <label for="county-select">Choose a county:</label>
   <select id="county-select">
-    <option value="">-- Select a county --</option>
+    <option value="STATEWIDE">Statewide</option>
     <option value="13001">Appling</option>
     <option value="13003">Atkinson</option>
     <option value="13005">Bacon</option>
@@ -529,70 +529,86 @@ document.addEventListener('DOMContentLoaded', async () => {
   const heading = document.getElementById('county-name-heading');
   const tbody = document.querySelector('#county-links-table tbody');
 
+  const statewideLinks = [
+    { label: "Georgia Courts (main)", url: "https://georgiacourts.gov/", recordType: "Courts", notes: "" },
+    { label: "GA Secretary of State – Business Search", url: "https://ecorp.sos.ga.gov/BusinessSearch", recordType: "Business", notes: "" },
+    { label: "GA DOC Offender Search", url: "https://services.gdc.ga.gov/GDC/", recordType: "Incarceration", notes: "" }
+  ];
+
+  // ✅ one reusable row function (NOT inside renderCounty)
+  const addRow = (category, item) => {
+    const tr = document.createElement('tr');
+
+    const tdCat = document.createElement('td');
+    tdCat.textContent = category;
+
+    const tdDept = document.createElement('td');
+    const a = document.createElement('a');
+    a.href = item.url;
+    a.textContent = item.label;
+    a.target = '_blank';
+    tdDept.appendChild(a);
+
+    const tdType = document.createElement('td');
+    tdType.textContent = item.recordType || '';
+
+    const tdNotes = document.createElement('td');
+    tdNotes.textContent = item.notes || '';
+
+    tr.appendChild(tdCat);
+    tr.appendChild(tdDept);
+    tr.appendChild(tdType);
+    tr.appendChild(tdNotes);
+
+    tbody.appendChild(tr);
+  };
+
+  // ✅ statewide renderer
+  function renderStatewide() {
+    tbody.innerHTML = '';
+    heading.textContent = 'Statewide';
+    statewideLinks.forEach(item => addRow('Statewide', item));
+  }
+
+  // ✅ single renderCounty function
   function renderCounty(fips) {
+    const key = String(fips || '').trim();
+
+    if (key === 'STATEWIDE') {
+      renderStatewide();
+      return;
+    }
+
     tbody.innerHTML = '';
     heading.textContent = '';
-
-    const key = String(fips).trim();
-    if (!key) return;
 
     const county = counties.find(c => String(c.fips).trim() === key);
     if (!county) return;
 
     heading.textContent = county.name + ' County';
 
-    const addRow = (category, item) => {
-      const tr = document.createElement('tr');
-    
-      const tdCat = document.createElement('td');
-      tdCat.textContent = category;
-    
-      const tdDept = document.createElement('td');
-      const a = document.createElement('a');
-      a.href = item.url;
-      a.textContent = item.label;
-      a.target = '_blank';
-      tdDept.appendChild(a);
-    
-      const tdType = document.createElement('td');
-      tdType.textContent = item.recordType || '';
-    
-      const tdNotes = document.createElement('td');
-      tdNotes.textContent = item.notes || '';
-    
-      tr.appendChild(tdCat);
-      tr.appendChild(tdDept);
-      tr.appendChild(tdType);
-      tr.appendChild(tdNotes);
-    
-      tbody.appendChild(tr);
-    };
-
     (county.courtSites || []).forEach(site => addRow('Court', site));
     (county.otherResources || []).forEach(res => addRow('Other', res));
   }
 
-  // Dropdown works
+  // Dropdown
   select.addEventListener('change', () => {
     renderCounty(select.value);
   });
 
-  // Map clicks drive dropdown + table
+  // Map clicks -> dropdown -> table
   document.querySelectorAll('#ga-map path').forEach(path => {
     path.style.cursor = 'pointer';
-
     path.addEventListener('click', () => {
       const fips = String(path.getAttribute('data-fips') || '').trim();
-
-      if (!fips) {
-        console.log('Clicked a path with NO data-fips yet');
-        return;
-      }
-
+      if (!fips) return;
       select.value = fips;
       select.dispatchEvent(new Event('change'));
     });
   });
+
+  // ✅ default to statewide on load
+  select.value = 'STATEWIDE';
+  renderStatewide();
 });
 </script>
-

@@ -509,7 +509,6 @@
     <thead>
       <tr>
         <th>Department</th>
-        <th>URL</th>
         <th>Record Type</th>
         <th>Notes</th>
       </tr>
@@ -554,7 +553,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     const tdNotes = document.createElement('td');
     tdNotes.textContent = item.notes || '';
 
-    tr.appendChild(tdCat);
     tr.appendChild(tdDept);
     tr.appendChild(tdType);
     tr.appendChild(tdNotes);
@@ -611,3 +609,4 @@ document.addEventListener('DOMContentLoaded', async () => {
   renderStatewide();
 });
 </script>
+

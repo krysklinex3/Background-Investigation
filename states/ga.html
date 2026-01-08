@@ -507,38 +507,7 @@
 
   <h3 id="county-name-heading"></h3>
 
-  <table id="county-links-table" border="1" cellpadding="4">
-    <thead>
-      <tr>
-        <th>Category</th>
-        <th>Department</th>
-        <th>Record Type</th>
-        <th>Notes</th>
-      </tr>
-    </thead>
-    <tbody>
-      <!-- Rows will be filled by JavaScript -->
-    </tbody>
-  </table>
-
 <script>
-const statewide = [
-    {
-      category: 'Statewide',
-      label: 'Georgia Courts (search)',
-      url: 'https://georgiacourts.gov/',
-      recordType: "Criminal History",
-      notes: ''
-    },
-    {
-      category: 'Statewide',
-      label: 'Georgia Secretary of State',
-      url: 'https://ecorp.sos.ga.gov/BusinessSearch',
-      recordType: "Business Entity",
-      notes: ''
-    }
-  ];
-  
 document.addEventListener('DOMContentLoaded', async () => {
   const response = await fetch('../data/ga-counties.json');
   const counties = await response.json();
@@ -613,9 +582,3 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 });
 </script>
-
-
-
-
-
-

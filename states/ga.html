@@ -504,9 +504,22 @@
     <option value="13319">Wilkinson</option>
     <option value="13321">Worth</option>
   </select>
-
   <h3 id="county-name-heading"></h3>
 
+<table id="county-links-table" border="1" cellpadding="4">
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Label</th>
+        <th>URL</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Rows will be filled by JavaScript -->
+    </tbody>
+  </table>  
+  
 <script>
 document.addEventListener('DOMContentLoaded', async () => {
   const response = await fetch('../data/ga-counties.json');
@@ -582,3 +595,4 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 });
 </script>
+
